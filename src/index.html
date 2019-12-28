@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Webpack</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Frontend part for the Yandex.Praktikum graduation project">
+  <meta name="author" content="Sasha Prokofyev">
+  <title>NewsExplorer</title>
+  <link rel="icon" type="images/png" href="/src/images/favicon.png">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  <header class="header">
+    <nav class="header__navigation">
+      <a href="./index.html" class="navigation__logo">
+        NewsExplorer
+      </a>
+      <a href="./index.html" class="navigation__main">
+        Главная
+      </a>
+      <button class="navigation__auth navigation__auth_text">
+        Авторизоваться
+      </button>
+    </nav>
+    <section class="header__info">
+      <h1 class="info__title">
+        Что в мире творится?
+      </h1>
+      <p class="info__description">
+        Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.
+      </p>
+      <div class="info__container">
+        <input class="info__search" type="text" placeholder="Введите тему новости">
+        <button class="info__button">Искать</button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    аватарка, заголовок, описание
+  </main>
+
+  <footer>
+    авторские права, 2 ссылки Главная, яндекс практикум, 2 ссылки на гитхаб, линкедин
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

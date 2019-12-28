@@ -1,0 +1,25 @@
+.info__search {
+  width: 608px;
+  height: 64px;
+
+  background: #fff;
+
+  border: none;
+  box-sizing: border-box;
+  backdrop-filter: blur(8px);
+
+  border-radius: 100px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 24px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 24px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding-left: 24px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding-left: 24px;
+}

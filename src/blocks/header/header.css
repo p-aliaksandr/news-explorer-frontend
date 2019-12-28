@@ -1,0 +1,9 @@
+@import url('./__navigation/header__navigation.css');
+@import url('./__info/header__info.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .header {
+    height: 576px;
+    background-image: url(../../images/main-background.jpg);
+  }
+}

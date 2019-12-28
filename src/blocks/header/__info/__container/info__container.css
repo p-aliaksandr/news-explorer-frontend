@@ -1,0 +1,12 @@
+@import url('./__button/info__button.css');
+@import url('./__search/info__search.css');
+
+.info__container {
+  display: flex;
+  margin-left: 416px;
+  width: 608px;
+  height: 64px;
+  background: #fff;
+
+  border-radius: 100px;
+}

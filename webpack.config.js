@@ -18,7 +18,23 @@ module: {
             {
               test: /\.css$/, // применять это правило только к CSS-файлам
               use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] // к этим файлам нужно применить пакеты, которые мы уже установили
-            }
+            },
+
+            {
+              test: /\.(png|jpg|gif|ico|svg)$/,
+              use: [
+                'file-loader?name=./images/[name].[ext]', // указали папку, куда складывать изображения
+                {
+                  loader: 'image-webpack-loader',
+                  options: {},
+                },
+              ],
+            },
+            {
+              test: /\.(eot|ttf|woff|woff2)$/,
+              loader: 'file-loader?name=./vendor/[name].[ext]',
+            },
+
         ]
     },
     plugins: [
