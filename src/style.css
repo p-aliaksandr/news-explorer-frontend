@@ -1,5 +1,7 @@
 @import url('./blocks/header/header.css');
 @import url('./blocks/header/__info/header__info.css');
+@import url('./blocks/main/main.css');
+@import url('./blocks/footer/footer.css');
 
 @media (min-width: 768px) and (max-width: 1440px) {
   body {
@@ -8,26 +10,6 @@
   }
 }
 
-a {
-  border: 1px solid red;
-}
-
-button {
-  border: 1px solid red;
-}
-
-/* nav {
+/* h1, h2, a, button, nav, div, p, footer {
   border: 1px solid red;
 } */
-
-div {
-  border: 1px solid red;
-}
-
-p {
-  border: 1px solid red;
-}
-
-h1 {
-  border: 1px solid red;
-}

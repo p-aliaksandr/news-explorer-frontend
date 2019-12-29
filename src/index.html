@@ -37,12 +37,35 @@
     </section>
   </header>
 
-  <main>
-    аватарка, заголовок, описание
+  <main class="main">
+    <img class="main__avatar" src="../src/images/image-03 (1).png" alt="фото автора">
+    <div class="main__container">
+      <h2 class="main__title">
+        Об авторе
+      </h2>
+      <p class="main__description">
+        Это блок с описанием автора проекта.
+        Здесь следует указать, как вас зовут, чем вы занимаетесь, какими
+        технологиями разработки владеете.
+        <p class="main__description">
+          Также можно рассказать о процессе
+          обучения в Практикуме, чему вы тут научились,
+          и чем можете помочь потенциальным заказчикам.
+        </p>
+      </p>
+    </div>
   </main>
 
-  <footer>
-    авторские права, 2 ссылки Главная, яндекс практикум, 2 ссылки на гитхаб, линкедин
+  <footer class="footer">
+    <p class="footer__author">&#169; 2019 Sasha Prokofyev</p>
+    <a class="footer__main" href="./index.html">Главная</a>
+    <a class="footer__ya-praktikum" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a>
+    <a class="footer__github-url" href="https://github.com/ablehope" target="_blank">
+      <img class="footer__github-img" src="../src/images/github.png" alt="иконка github">
+    </a>
+    <a class="footer__linkedin-url" href="https://www.linkedin.com/in/ablehope" target="_blank">
+      <img class="footer__linkedin-img" src="../src/images/linkedin.png" alt="иконка linkedin">
+    </a>
   </footer>
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>

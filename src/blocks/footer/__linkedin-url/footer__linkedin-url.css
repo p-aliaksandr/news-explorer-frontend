@@ -1,0 +1,7 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+  .footer__linkedin-url {
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

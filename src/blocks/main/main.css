@@ -1,0 +1,9 @@
+@import url('./__avatar/main__avatar.css');
+@import url('./__container/main__container.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .main {
+    display: flex;
+    background: #fff;
+  }
+}

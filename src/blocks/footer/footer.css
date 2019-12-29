@@ -1,0 +1,11 @@
+@import url('./__author/footer__author.css');
+@import url('./__main/footer__main.css');
+@import url('./__ya-praktikum/footer__ya-praktikum.css');
+@import url('./__github-url/footer__github-url.css');
+@import url('./__linkedin-url/footer__linkedin-url.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .footer {
+  display: flex;
+  }
+}
