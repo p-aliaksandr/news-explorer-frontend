@@ -1,0 +1,16 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+  .results__title {
+    width: 712px;
+    margin-left: 104px;
+    margin-top: 80px;
+    margin-bottom: 0;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #1a1b22;
+  }
+}

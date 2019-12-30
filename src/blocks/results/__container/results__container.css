@@ -1,0 +1,11 @@
+@import url('./__card/results__card.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .results__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1232px;
+    margin-top: 64px;
+    margin-left: 104px;
+  }
+}

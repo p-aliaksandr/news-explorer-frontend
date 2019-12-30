@@ -1,0 +1,14 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+  .card__bookmark_img {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+  }
+
+  .card__bookmark_img-hover {
+    display: none;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+  }
+}

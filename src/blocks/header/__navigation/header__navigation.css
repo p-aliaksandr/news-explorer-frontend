@@ -1,12 +1,22 @@
 @import url('./__logo/navigation__logo.css');
 @import url('./__main/navigation__main.css');
 @import url('./__auth/navigation__auth.css');
+@import url('./__saved-articles/navigation__saved-articles_logged-in.css');
 
 @media (min-width: 768px) and (max-width: 1440px) {
   .header__navigation {
     display: flex;
+    /* display: none; */
 
     background: rgba(196, 196, 196, 0.01);
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+  }
+
+  .header__navigation_logged-in {
+    /* display: flex; */
+    display: none;
+
+    background: rgba(255, 255, 255, 0.01);
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
   }
 }

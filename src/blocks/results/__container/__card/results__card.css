@@ -1,0 +1,31 @@
+@import url('./__time/card__time.css');
+@import url('./__title/card__title.css');
+@import url('./__description/card__description.css');
+@import url('./__author/card__author.css');
+@import url('./__bookmark/card__bookmark.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .results__card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;;
+    border-radius: 16px;
+    background: #fff;
+  }
+
+  .card__lenta {
+    background-image: url(../../../../../src/images/result-1.png);
+    background-repeat: no-repeat;
+  }
+
+  .card__medusa {
+    background-image: url(../../../../../src/images/result-2.png);
+    background-repeat: no-repeat;
+  }
+
+  .card__ria {
+    background-image: url(../../../../../src/images/result-3.png);
+    background-repeat: no-repeat;
+  }
+}
+
