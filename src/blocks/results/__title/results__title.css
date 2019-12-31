@@ -2,8 +2,8 @@
   .results__title {
     width: 712px;
     margin-left: 104px;
-    margin-top: 80px;
-    margin-bottom: 0;
+    padding-top: 80px;
+    margin-top: 0;
 
     font-family: Roboto Slab;
     font-style: normal;

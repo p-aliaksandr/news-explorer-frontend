@@ -20,6 +20,9 @@
 
   .card__bookmark:hover .card__bookmark_img-hover {
     display: block;
-    margin-bottom: 10px;;
+  }
+
+  .card__bookmark:active .card__bookmark_img-active {
+    display: block;
   }
 }

@@ -3,14 +3,18 @@
 @import url('./blocks/main/main.css');
 @import url('./blocks/footer/footer.css');
 @import url('./blocks/results/results.css');
+@import url('./blocks/preloader/preloader.css');
+@import url('./blocks/not-found/not-found.css');
+@import url('./blocks/saved-articles/saved-articles.css');
 
 @media (min-width: 768px) and (max-width: 1440px) {
   body {
     width: 1440px;
-    background: #FFFFFF;
+    background: #fff;
   }
 }
 
-h1, h2, h3, a, button, nav, div, p, footer, time, .results {
+/* main, h1, h2, h3, a, button, nav, div, p, footer, time, .results, section, i,
+.navigation__auth_text-black, .navigation__auth_icon-black {
   border: 1px solid red;
-}
+} */

@@ -12,6 +12,7 @@
   }
 
   .navigation__auth_text {
+    padding-left: 19px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -24,6 +25,8 @@
   }
 
   .navigation__auth_logged-in {
+    display: flex;
+    align-items: center;
     width: 112px;
     height: 48px;
     margin-left: 32px;
@@ -38,6 +41,42 @@
   .navigation__auth_logged-in_icon {
     width: 17.41px;
     height: 16px;
-    margin-left: 6px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union.png);
+  }
+
+  .navigation__auth-black {
+    display: flex;
+    align-items: center;
+    width: 112px;
+    height: 48px;
+    margin-left: 32px;
+    margin-top: 19px;
+    margin-bottom: 13px;
+
+    background: #fff;
+    border: 1px solid #1A1B22;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+
+  .navigation__auth_text-black {
+    padding-left: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+
+    color: #1A1B22;
+  }
+
+  .navigation__auth_icon-black {
+    /* display: inline-block; */
+    width: 17.41px;
+    height: 16px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union-black.png);
   }
 }

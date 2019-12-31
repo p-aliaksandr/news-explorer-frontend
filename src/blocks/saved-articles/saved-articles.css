@@ -1,0 +1,7 @@
+@import url('./__container/saved-articles__container.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .saved-articles {
+    background: #f5f6f7;
+  }
+}

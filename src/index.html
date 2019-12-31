@@ -36,7 +36,8 @@
       </a>
       <button class="navigation__auth_logged-in navigation__auth_text">
         Грета
-        <img class="navigation__auth_logged-in_icon" src="../src/images/Union.png" alt="иконка входа">
+        <span class="navigation__auth_logged-in_icon">
+        </span>
       </button>
     </nav>
 
@@ -54,6 +55,29 @@
     </section>
   </header>
 
+  <section class="preloader">
+    <div class="preloader-container">
+      <i class="preloader-circle">
+      </i>
+      <p class="preloader__text">
+        Идет поиск новостей...
+      </p>
+    </div>
+  </section>
+
+  <section class="not-found">
+    <div class="not-found-container">
+      <div class="not-found__img">
+      </div>
+      <h3 class="not-found__title">
+        Ничего не найдено
+      </h3>
+      <p class="not-found__text">
+        К сожалению по вашему запросу ничего не найдено.
+      </p>
+    </div>
+  </section>
+
   <section class="results">
     <h2 class="results__title">
       Результаты поиска
@@ -61,8 +85,9 @@
     <div class="results__container">
       <article class="results__card card__lenta">
         <button class="card__bookmark">
-          <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="иконка закладки">
-          <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="иконка закладки при наведении">
+          <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="закладка">
+          <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="закладка">
+          <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="закладка">
           <div class="card__bookmark_alert">
             <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
           </div>
@@ -79,7 +104,7 @@
           национальных парков – охраняемых территорий, где
           и сегодня каждый может приобщиться к природе.
         </p>
-        <address class="card__author author__lenta" >
+        <address class="card__author author-lenta" >
           Лента.ру
         </address>
       </article>
@@ -87,6 +112,7 @@
         <button class="card__bookmark">
           <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="иконка закладки">
           <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="иконка закладки при наведении">
+          <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="иконка закладки при нажатии">
           <div class="card__bookmark_alert">
             <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
           </div>
@@ -102,7 +128,7 @@
             реальности Мексики, чтобы запечатлеть ускользающую
             красоту одного из местных чудес природы.
           </p>
-          <address class="card__author author__medusa" >
+          <address class="card__author author-medusa" >
             Медуза
           </address>
         </article>
@@ -110,6 +136,7 @@
           <button class="card__bookmark">
             <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="иконка закладки">
             <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="иконка закладки при наведении">
+            <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="иконка закладки при нажатии">
             <div class="card__bookmark_alert">
               <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
             </div>
@@ -125,8 +152,8 @@
             чтобы рассказать о необходимости их сохранения. В этот раз
             он отправился в Двинско-Пинежскую тайгу, где...
           </p>
-          <address class="card__author author__ria" >
-              Риа
+          <address class="card__author author-ria" >
+            Риа
           </address>
         </article>
     </div>

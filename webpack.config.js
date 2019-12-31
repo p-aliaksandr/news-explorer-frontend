@@ -48,6 +48,13 @@ module: {
         template: './src/index.html', // откуда брать образец для сравнения с текущим видом проекта
         filename: 'index.html' // имя выходного файла, то есть того, что окажется в папке dist после сборки
       }),
+      new HtmlWebpackPlugin({
+        // Означает, что:
+        inject: false, // стили НЕ нужно прописывать внутри тегов
+        hash: true, // для страницы нужно считать хеш
+        template: './src/saved-articles.html', // откуда брать образец для сравнения с текущим видом проекта
+        filename: 'saved-articles.html' // имя выходного файла, то есть того, что окажется в папке dist после сборки
+      }),
       new WebpackMd5Hash()
   ]
 };

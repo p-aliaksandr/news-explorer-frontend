@@ -6,4 +6,8 @@
     height: 576px;
     background-image: url(../../images/main-background.jpg);
   }
+
+  .header-saved-articles {
+    background: #fff;
+  }
 }

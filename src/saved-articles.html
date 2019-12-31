@@ -1,12 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Saved Articles</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Frontend part for the Yandex.Praktikum graduation project">
+    <meta name="author" content="Sasha Prokofyev">
+    <title>Saved Articles</title>
+    <link rel="icon" type="images/png" href="/src/images/favicon.png">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
+  <header class="header-saved-articles">
+    <nav class="header__navigation-black">
+      <a href="./index.html" class="navigation__logo-black">
+        NewsExplorer
+      </a>
+      <a href="./index.html" class="navigation__main-black">
+        Главная
+      </a>
+      <a href="./saved-articles.html" class="navigation__saved-articles-black">
+        Сохранённые статьи
+      </a>
+      <button class="navigation__auth-black navigation__auth_text-black">
+        Грета
+        <span class="navigation__auth_icon-black">
+        </span>
+      </button>
+    </nav>
 
+    <section class="header__info-saved-articles">
+      <h2 class="info__title-saved-articles">
+        Сохранённые статьи
+      </h2>
+      <p class="info__text-saved-articles">
+        Грета, у вас 5 сохранённых статей
+      </p>
+      <p class="info__keywords-saved-articles">
+        По ключевым словам: <b>Природа, Тайга</b> и <b>2 другим</b>
+      </p>
+    </section>
+
+  </header>
+
+  <main class="saved-articles">
+    <div class="saved-articles__container">
+      <article class="saved-articles__card card-dzen">
+        <div class="card__upper-container">
+          <div class="card__keyword">
+            <p class="card__keyword-text">
+              Природа
+            </p>
+          </div>
+          <button class="card__remove">
+            <img class="card__remove_img" src="../src/images/trash-grey.png" alt="корзина">
+            <img class="card__remove_img-hover" src="../src/images/trash-black.png" alt="корзина">
+            <div class="card__remove_alert">
+              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            </div>
+          </button>
+        </div>
+        <time class="card__time" datetime="2019-08-02">
+          2 августа, 2019
+        </time>
+        <h3 class="card__title">
+          Национальное достояние – парки
+        </h3>
+        <p class="card__description" >
+          В 2016 году Америка отмечала важный юбилей:
+          сто лет назад здесь начала складываться система
+          национальных парков – охраняемых территорий, где
+          и сегодня каждый может приобщиться к природе.
+        </p>
+        <address class="card__author author-dzen" >
+          ДЗЕН
+        </address>
+      </article>
+      <article class="saved-articles__card card-afisha">
+        <div class="card__upper-container">
+          <div class="card__keyword">
+            <p class="card__keyword-text">
+              Природа
+            </p>
+          </div>
+          <button class="card__remove">
+            <img class="card__remove_img" src="../src/images/trash-grey.png" alt="корзина">
+            <img class="card__remove_img-hover" src="../src/images/trash-black.png" alt="корзина">
+            <div class="card__remove_alert">
+              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            </div>
+          </button>
+        </div>
+        <time class="card__time" datetime="2019-08-02">
+          2 августа, 2019
+        </time>
+        <h3 class="card__title">
+          Лесные огоньки: история одной фотографии
+        </h3>
+        <p class="card__description" >
+          Фотограф отвлеклась от освещения суровой политической
+          реальности Мексики, чтобы запечатлеть ускользающую
+          красоту одного из местных чудес природы.
+        </p>
+        <address class="card__author author-afisha" >
+          Афиша
+        </address>
+      </article>
+      <article class="saved-articles__card card-mediazone">
+        <div class="card__upper-container">
+          <div class="card__keyword">
+            <p class="card__keyword-text">
+              Тайга
+            </p>
+          </div>
+          <button class="card__remove">
+            <img class="card__remove_img" src="../src/images/trash-grey.png" alt="корзина">
+            <img class="card__remove_img-hover" src="../src/images/trash-black.png" alt="корзина">
+            <div class="card__remove_alert">
+              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            </div>
+          </button>
+        </div>
+        <time class="card__time" datetime="2019-08-02">
+          2 августа, 2019
+        </time>
+        <h3 class="card__title">
+          «Первозданная тайга»: новый фотопроект Игоря Шпиленка
+        </h3>
+        <p class="card__description">
+          Знаменитый фотограф снимает первозданные леса России,
+          чтобы рассказать о необходимости их сохранения. В этот
+          раз он отправился в Двинско-Пинежскую тайгу, где...
+        </p>
+        <address class="card__author author-mediazone" >
+          Медиазона
+        </address>
+      </article>
+      <article class="saved-articles__card card-dzen">
+        <div class="card__upper-container">
+          <div class="card__keyword">
+            <p class="card__keyword-text">
+              Парки
+            </p>
+          </div>
+          <button class="card__remove">
+            <img class="card__remove_img" src="../src/images/trash-grey.png" alt="корзина">
+            <img class="card__remove_img-hover" src="../src/images/trash-black.png" alt="корзина">
+            <div class="card__remove_alert">
+              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            </div>
+          </button>
+        </div>
+        <time class="card__time" datetime="2019-08-02">
+          2 августа, 2019
+        </time>
+        <h3 class="card__title">
+          Национальное достояние – парки
+        </h3>
+        <p class="card__description" >
+          В 2016 году Америка отмечала важный юбилей:
+          сто лет назад здесь начала складываться система
+          национальных парков – охраняемых территорий, где
+          и сегодня каждый может приобщиться к природе.
+        </p>
+        <address class="card__author author-dzen" >
+          ДЗЕН
+        </address>
+      </article>
+      <article class="saved-articles__card card-afisha">
+        <div class="card__upper-container">
+          <div class="card__keyword">
+            <p class="card__keyword-text">
+              Фотография
+            </p>
+          </div>
+          <button class="card__remove">
+            <img class="card__remove_img" src="../src/images/trash-grey.png" alt="корзина">
+            <img class="card__remove_img-hover" src="../src/images/trash-black.png" alt="корзина">
+            <div class="card__remove_alert">
+              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            </div>
+          </button>
+        </div>
+        <time class="card__time" datetime="2019-08-02">
+          2 августа, 2019
+        </time>
+        <h3 class="card__title">
+          Лесные огоньки: история одной фотографии
+        </h3>
+        <p class="card__description" >
+          Фотограф отвлеклась от освещения суровой политической
+          реальности Мексики, чтобы запечатлеть ускользающую
+          красоту одного из местных чудес природы.
+        </p>
+        <address class="card__author author-afisha" >
+          Афиша
+        </address>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__author">&#169; 2019 Sasha Prokofyev</p>
+    <a class="footer__main" href="./index.html">Главная</a>
+    <a class="footer__ya-praktikum" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a>
+    <a class="footer__github-url" href="https://github.com/ablehope" target="_blank">
+      <img class="footer__github-img" src="../src/images/github.png" alt="иконка github">
+    </a>
+    <a class="footer__linkedin-url" href="https://www.linkedin.com/in/ablehope" target="_blank">
+      <img class="footer__linkedin-img" src="../src/images/linkedin.png" alt="иконка linkedin">
+    </a>
+    </footer>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

@@ -11,4 +11,11 @@
     top: 11px;
     left: 13px;
   }
+
+  .card__bookmark_img-active {
+    display: none;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+  }
 }

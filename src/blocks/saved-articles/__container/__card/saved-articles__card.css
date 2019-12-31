@@ -1,0 +1,28 @@
+@import url('./__upper-container/card__upper-container.css');
+@import url('./__author/card__author.css');
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .saved-articles__card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 16px;
+    background: #fff;
+    margin: 8px;
+  }
+
+  .card-dzen {
+    background-image: url(../../../../../src/images/saved-articles-1-4.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-afisha {
+    background-image: url(../../../../../src/images/saved-articles-2-5.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-mediazone {
+    background-image: url(../../../../../src/images/saved-articles-3.png);
+    background-repeat: no-repeat;
+  }
+}
