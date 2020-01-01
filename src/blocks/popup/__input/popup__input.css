@@ -1,0 +1,34 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+  .popup__input {
+    width: 358px;
+    margin-top: 9px;
+    margin-left: 36px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+    color: #000;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+    opacity: 0.2;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+    opacity: 0.2;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+    opacity: 0.2;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #000;
+    opacity: 0.2;
+  }
+}

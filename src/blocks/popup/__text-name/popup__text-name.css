@@ -1,0 +1,16 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+  .popup__text-name {
+    width: 139px;
+    height: 14px;
+    margin-left: 36px;
+    margin-top: 31px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #2F71E5;
+  }
+}

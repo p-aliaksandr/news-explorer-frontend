@@ -55,6 +55,80 @@
     </section>
   </header>
 
+  <div class="popup popup popup-signin">
+    <div class="popup__content">
+      <img src="../src/images/close.png" alt="" class="popup__close">
+      <h3 class="popup__title">Вход
+      </h3>
+      <form class="popup__form" name="signin">
+        <p class="popup__text-email">Email
+        </p>
+        <input type="email" name="email" class="popup__input popup__input-type_email" placeholder="Введите почту">
+        <span class="popup__error popup__error_email">Неправильный формат email
+        </span>
+        <p class="popup__text-password">Пароль
+        </p>
+        <input type="password" name="password" class="popup__input popup__input-type_password" placeholder="Введите пароль">
+        <span class="popup__error popup__error_password">
+        </span>
+        <button type class="button popup__button-signin popup__button-signin-active">Войти
+        </button>
+      </form>
+      <p class="popup__text-and">или
+        <a class="popup__url-signup" href="#">Зарегистрироваться</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="popup popup-signup">
+      <div class="popup__content">
+        <img src="../src/images/close.png" alt="" class="popup__close">
+        <h3 class="popup__title">Регистрация
+        </h3>
+        <form class="popup__form" name="signup">
+          <p class="popup__text-email">Email
+          </p>
+          <input type="email" name="email" class="popup__input popup__input-type_email" placeholder="Введите почту">
+          <span class="popup__error popup__error_email">Неправильный формат email
+          </span>
+          <p class="popup__text-password">Пароль
+          </p>
+          <input type="password" name="password" class="popup__input popup__input-type_password" placeholder="Введите пароль">
+          <span class="popup__error popup__error_password">
+          </span>
+          <p class="popup__text-name">Имя
+          </p>
+          <input type="text" name="name" class="popup__input popup__input-type_name" placeholder="Введите своё имя">
+          <span class="popup__error popup__error_name">
+          </span>
+          <span class="popup__error-duplicate">
+            Такой пользователь уже есть
+          </span>
+          <button type class="button popup__button-signup popup__button-signup-active">
+            Зарегистрироваться
+          </button>
+        </form>
+        <p class="popup__text-and">
+          или
+          <a class="popup__url-signin" href="">
+            Войти
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="popup popup__signup-success">
+      <div class="popup__content-success">
+        <img src="../src/images/close.png" alt="" class="popup__close">
+        <h3 class="popup__title-success">
+          Пользователь успешно зарегистрирован!
+        </h3>
+        <a class="popup__url-signin-success" href="#">
+          Выполнить вход
+        </a>
+      </div>
+    </div>
+
   <section class="preloader">
     <div class="preloader-container">
       <i class="preloader-circle">
