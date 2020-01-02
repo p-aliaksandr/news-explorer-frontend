@@ -1,4 +1,51 @@
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navigation__auth {
+    width: 140px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+
+  .navigation__auth_text {
+    padding-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: none;
+    cursor: pointer;
+
+    color: #fff;
+  }
+
+  .navigation__auth_logged-in {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+
+  .navigation__auth_logged-in_icon {
+    width: 17.41px;
+    height: 16px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union.png);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .navigation__auth {
     width: 176px;
     height: 48px;
@@ -73,7 +120,6 @@
   }
 
   .navigation__auth_icon-black {
-    /* display: inline-block; */
     width: 17.41px;
     height: 16px;
     margin-left: 8px;

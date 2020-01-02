@@ -1,4 +1,20 @@
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__title {
+    width: 192px;
+    margin-left: 16px;
+    margin-top: 12px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #1a1b22;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .card__title {
     width: 290px;
     margin-left: 24px;
@@ -10,6 +26,6 @@
     font-size: 26px;
     line-height: 30px;
 
-    color: #1A1B22;
+    color: #1a1b22;
   }
 }

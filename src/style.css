@@ -8,7 +8,23 @@
 @import url('./blocks/saved-articles/saved-articles.css');
 @import url('./blocks/popup/popup.css');
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    width: 320px;
+    margin: 0 auto;
+    background: #fff;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    width: 768px;
+    margin: 0 auto;
+    background: #fff;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   body {
     width: 1440px;
     margin: 0 auto;
@@ -16,8 +32,8 @@
   }
 }
 
-/* main, h1, h2, h3, a, button, nav, div, p, footer, time, .results, section, i,
+main, h1, h2, h3, a, button, nav, div, p, footer, time, .results, section, i,
 .navigation__auth_text-black, .navigation__auth_icon-black, .popup__close, input,
 span {
   border: 1px solid red;
-} */
+}

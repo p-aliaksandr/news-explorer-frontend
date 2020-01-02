@@ -4,8 +4,16 @@
 @import url('./__github-url/footer__github-url.css');
 @import url('./__linkedin-url/footer__linkedin-url.css');
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .footer {
   display: flex;
+  align-items: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .footer {
+  display: flex;
+  align-items: center;
   }
 }

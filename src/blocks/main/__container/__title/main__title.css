@@ -1,4 +1,22 @@
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main__title {
+    width: 424px;
+    height: 34px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #1a1b22;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .main__title {
     width: 496px;
     height: 46px;
@@ -12,6 +30,6 @@
     font-size: 40px;
     line-height: 46px;
 
-    color: #1A1B22;
+    color: #1a1b22;
   }
 }

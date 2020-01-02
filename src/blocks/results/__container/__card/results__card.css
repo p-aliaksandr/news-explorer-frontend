@@ -4,7 +4,32 @@
 @import url('./__author/card__author.css');
 @import url('./__bookmark/card__bookmark.css');
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .results__card {
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+    border-radius: 16px;
+    background: #fff;
+  }
+
+  .card__lenta {
+    background-image: url(../../../../../src/images/result-1-768-1023.png);
+    background-repeat: no-repeat;
+  }
+
+  .card__medusa {
+    background-image: url(../../../../../src/images/result-2-768-1023.png);
+    background-repeat: no-repeat;
+  }
+
+  .card__ria {
+    background-image: url(../../../../../src/images/result-3-768-1023.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .results__card {
     display: flex;
     flex-direction: column;

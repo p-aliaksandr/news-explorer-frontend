@@ -2,7 +2,14 @@
 @import url('./__container/results__container.css');
 @import url('./__show-more/results__show-more.css');
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .results {
+    /* display: none; */
+    background: #f5f6f7;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .results {
     /* display: none; */
     background: #f5f6f7;

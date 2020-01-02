@@ -1,7 +1,19 @@
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__linkedin-url {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .footer__linkedin-url {
     margin-left: 28px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 106px;
   }
 }

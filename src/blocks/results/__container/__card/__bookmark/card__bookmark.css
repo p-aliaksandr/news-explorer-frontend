@@ -1,7 +1,33 @@
 @import url('./_alert/card__bookmark_alert.css');
 @import url('./_img/card__bookmark_img.css');
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__bookmark {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 176px;
+    background: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .card__bookmark:hover .card__bookmark_alert {
+    display: block;
+  }
+
+  .card__bookmark:hover .card__bookmark_img-hover {
+    display: block;
+  }
+
+  .card__bookmark:active .card__bookmark_img-active {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .card__bookmark {
     position: relative;
     width: 40px;

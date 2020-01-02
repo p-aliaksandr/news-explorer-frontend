@@ -1,4 +1,24 @@
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__main {
+    width: 80px;
+    height: 22px;
+    margin-left: 45px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+
+    color: #1a1b22;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .footer__main {
     width: 120px;
     height: 22px;
@@ -14,6 +34,6 @@
     text-decoration: none;
     text-align: center;
 
-    color: #1A1B22;
+    color: #1a1b22;
   }
 }
