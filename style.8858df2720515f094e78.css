@@ -280,7 +280,7 @@
     width: 17.41px;
     height: 16px;
     margin-left: 8px;
-    background-image: url(./src/images/Union.png);
+    background-image: url(../src/images/Union.png);
   }
 
   .navigation__auth-black {
@@ -314,7 +314,7 @@
     width: 17.41px;
     height: 16px;
     margin-left: 8px;
-    background-image: url(./src/images/Union-black.png);
+    background-image: url(../src/images/Union-black.png);
   }
 }
 
@@ -363,7 +363,7 @@
     width: 17.41px;
     height: 16px;
     margin-left: 8px;
-    background-image: url(./src/images/Union.png);
+    background-image: url(../src/images/Union.png);
   }
 
   .navigation__auth-black {
@@ -397,7 +397,7 @@
     width: 17.41px;
     height: 16px;
     margin-left: 8px;
-    background-image: url(./src/images/Union-black.png);
+    background-image: url(../src/images/Union-black.png);
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1072,7 +1072,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .header {
     height: 536px;
-    background-image: url(./src/images/main-background-320-768.png);
+    background-image: url(../src/images/main-background-320-768.png);
   }
 
   .header-saved-articles {
@@ -1083,7 +1083,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
     height: 400px;
-    background-image: url(./src/images/main-background-768-1023.png);
+    background-image: url(../src/images/main-background-768-1023.png);
     background-repeat: no-repeat;
   }
 
@@ -1095,7 +1095,7 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
   .header {
     height: 576px;
-    background-image: url(./src/images/main-background.jpg);
+    background-image: url(../src/images/main-background.jpg);
     background-repeat: no-repeat;
   }
 
@@ -2557,17 +2557,17 @@
   }
 
   .card__lenta {
-    background-image: url(./src/images/result-1-320-768.png);
+    background-image: url(../src/images/result-1-320-768.png);
     background-repeat: no-repeat;
   }
 
   .card__medusa {
-    background-image: url(./src/images/result-2-320-768.png);
+    background-image: url(../src/images/result-2-320-768.png);
     background-repeat: no-repeat;
   }
 
   .card__ria {
-    background-image: url(./src/images/result-3-320-768.png);
+    background-image: url(../src/images/result-3-320-768.png);
     background-repeat: no-repeat;
   }
 }
@@ -2582,17 +2582,17 @@
   }
 
   .card__lenta {
-    background-image: url(./src/images/result-1-768-1023.png);
+    background-image: url(../src/images/result-1-768-1023.png);
     background-repeat: no-repeat;
   }
 
   .card__medusa {
-    background-image: url(./src/images/result-2-768-1023.png);
+    background-image: url(../src/images/result-2-768-1023.png);
     background-repeat: no-repeat;
   }
 
   .card__ria {
-    background-image: url(./src/images/result-3-768-1023.png);
+    background-image: url(../src/images/result-3-768-1023.png);
     background-repeat: no-repeat;
   }
 }
@@ -2607,17 +2607,17 @@
   }
 
   .card__lenta {
-    background-image: url(./src/images/result-1.png);
+    background-image: url(../src/images/result-1.png);
     background-repeat: no-repeat;
   }
 
   .card__medusa {
-    background-image: url(./src/images/result-2.png);
+    background-image: url(../src/images/result-2.png);
     background-repeat: no-repeat;
   }
 
   .card__ria {
-    background-image: url(./src/images/result-3.png);
+    background-image: url(../src/images/result-3.png);
     background-repeat: no-repeat;
   }
 }
@@ -2838,7 +2838,7 @@
     width: 96px;
     height: 96px;
     margin: auto;
-    background-image: url(./src/images/not-found.png);
+    background-image: url(../src/images/not-found.png);
   }
 }
 
@@ -2847,7 +2847,7 @@
     width: 96px;
     height: 96px;
     margin: auto;
-    background-image: url(./src/images/not-found.png);
+    background-image: url(../src/images/not-found.png);
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -3275,17 +3275,17 @@
   }
 
   .card-dzen {
-    background-image: url(./src/images/saved-articles-1-320-768.png);
+    background-image: url(../src/images/saved-articles-1-320-768.png);
     background-repeat: no-repeat;
   }
 
   .card-afisha {
-    background-image: url(./src/images/saved-articles-2-5-320-768.png);
+    background-image: url(../src/images/saved-articles-2-5-320-768.png);
     background-repeat: no-repeat;
   }
 
   .card-mediazone {
-    background-image: url(./src/images/saved-articles-3-320-768.png);
+    background-image: url(../src/images/saved-articles-3-320-768.png);
     background-repeat: no-repeat;
   }
 }
@@ -3301,17 +3301,17 @@
   }
 
   .card-dzen {
-    background-image: url(./src/images/saved-articles-1-4-768-1024.png);
+    background-image: url(../src/images/saved-articles-1-4-768-1024.png);
     background-repeat: no-repeat;
   }
 
   .card-afisha {
-    background-image: url(./src/images/saved-articles-2-5-768-1024.png);
+    background-image: url(../src/images/saved-articles-2-5-768-1024.png);
     background-repeat: no-repeat;
   }
 
   .card-mediazone {
-    background-image: url(./src/images/saved-articles-3-768-1024.png);
+    background-image: url(../src/images/saved-articles-3-768-1024.png);
     background-repeat: no-repeat;
   }
 }
@@ -3327,17 +3327,17 @@
   }
 
   .card-dzen {
-    background-image: url(./src/images/saved-articles-1-4.png);
+    background-image: url(../src/images/saved-articles-1-4.png);
     background-repeat: no-repeat;
   }
 
   .card-afisha {
-    background-image: url(./src/images/saved-articles-2-5.png);
+    background-image: url(../src/images/saved-articles-2-5.png);
     background-repeat: no-repeat;
   }
 
   .card-mediazone {
-    background-image: url(./src/images/saved-articles-3.png);
+    background-image: url(../src/images/saved-articles-3.png);
     background-repeat: no-repeat;
   }
 }
