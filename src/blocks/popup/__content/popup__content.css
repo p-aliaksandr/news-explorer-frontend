@@ -1,3 +1,26 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .popup__content {
+    position: relative;
+    width: 320px;
+    height: 560px;
+    margin-top: 56px;
+
+    background: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+  }
+
+  .popup__content-success {
+    position: relative;
+    width: 320px;
+    height: 150px;
+
+    background: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1440px) {
   .popup__content {
     position: relative;

@@ -1,8 +1,27 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__main {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 200px;
+    height: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    text-decoration: none;
+
+    color: #1a1b22;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer__main {
-    width: 80px;
+    width: 96px;
     height: 22px;
-    margin-left: 45px;
+    margin-left: 79px;
     margin-top: 21px;
     margin-bottom: 21px;
 

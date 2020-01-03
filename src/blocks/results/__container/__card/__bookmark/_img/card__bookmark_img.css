@@ -1,3 +1,25 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__bookmark_img {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+  }
+
+  .card__bookmark_img-hover {
+    display: none;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+  }
+
+  .card__bookmark_img-active {
+    display: none;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__bookmark_img {
     position: absolute;

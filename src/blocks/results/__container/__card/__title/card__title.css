@@ -1,3 +1,19 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__title {
+    width: 256px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #1a1b22;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__title {
     width: 192px;

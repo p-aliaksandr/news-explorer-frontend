@@ -1,3 +1,17 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .popup__url-signup {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #2f71e5;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1440px) {
   .popup__url-signup {
     font-family: Inter;

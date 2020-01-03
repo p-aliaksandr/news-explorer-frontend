@@ -1,6 +1,37 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__author {
+    margin-left: 16px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #b6bcbf;
+  }
+
+  .author-lenta {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .author-medusa {
+    margin-top: 8px;
+    margin-bottom: 17px;
+  }
+
+  .author-ria {
+    margin-top: 8px;
+    margin-bottom: 17px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__author {
-    /* width: 89px; */
     margin-left: 16px;
 
     font-family: Roboto Slab;

@@ -1,3 +1,14 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .main__avatar {
+    width: 272px;
+    height: 272px;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    border-radius: 1000px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .main__avatar {
     width: 232px;

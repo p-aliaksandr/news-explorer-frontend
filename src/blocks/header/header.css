@@ -1,6 +1,17 @@
 @import url('./__navigation/header__navigation.css');
 @import url('./__info/header__info.css');
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    height: 536px;
+    background-image: url(../../images/main-background-320-768.png);
+  }
+
+  .header-saved-articles {
+    background: #fff;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
     height: 400px;

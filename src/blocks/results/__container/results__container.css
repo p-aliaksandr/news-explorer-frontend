@@ -1,5 +1,15 @@
 @import url('./__card/results__card.css');
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .results__container {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .results__container {
     display: flex;
