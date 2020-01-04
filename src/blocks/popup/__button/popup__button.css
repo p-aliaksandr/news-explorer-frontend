@@ -121,7 +121,7 @@
     color: #B6BCBF;
   }
 
-  .popup__button-signin-active {
+  .popup__button-signin-active:disabled {
     width: 358px;
     height: 64px;
     margin-top: 39px;
@@ -143,21 +143,21 @@
   }
 
   .popup__button-signin-active:hover {
-    background: #347EFF;
+    background: #347eff;
     border: none;
   }
 
   .popup__button-signin-active:active {
-    background: #2A65CC;
+    background: #2a65cc;
     border: none;
   }
 
   .popup__button-signup {
-    margin-top: 39px;
+    margin-top: 8px;
     margin-left: 35px;
     width: 360px;
     height: 64px;
-    background: #E6E8EB;
+    background: #e6e8eb;
     border-radius: 100px;
 
     font-family: Roboto;
@@ -168,10 +168,10 @@
     border: none;
     cursor: pointer;
 
-    color: #B6BCBF;
+    color: #b6bcbf;
   }
 
-  .popup__button-signup-active {
+  .popup__button-signup-active:disabled {
     margin-top: 8px;
     margin-left: 35px;
     width: 360px;
@@ -192,12 +192,12 @@
   }
 
   .popup__button-signup-active:hover {
-    background: #347EFF;
+    background: #347eff;
     border: none;
   }
 
   .popup__button-signup-active:active {
-    background: #2A65CC;
+    background: #2a65cc;
     border: none;
   }
 }

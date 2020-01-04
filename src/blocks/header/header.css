@@ -16,6 +16,7 @@
   .header {
     height: 400px;
     background-image: url(../../images/main-background-768-1023.png);
+    background-repeat: no-repeat;
   }
 
   .header-saved-articles {
@@ -27,6 +28,7 @@
   .header {
     height: 576px;
     background-image: url(../../images/main-background.jpg);
+    background-repeat: no-repeat;
   }
 
   .header-saved-articles {

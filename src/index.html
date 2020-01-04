@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <!-- Шапка, не зарегистрирован -->
+  <!-- Шапка, не зарегистрирован(768-1440) -->
   <header class="header">
     <nav class="header__navigation">
       <a href="./index.html" class="navigation__logo">
@@ -26,7 +26,7 @@
       </button>
     </nav>
 
-    <!-- Шапка, зарегистрирован -->
+    <!-- Шапка, зарегистрирован(768-1440) -->
     <nav class="header__navigation_logged-in">
       <a href="./index.html" class="navigation__logo_logged-in">
         NewsExplorer
@@ -44,15 +44,55 @@
       </button>
     </nav>
 
-    <!-- Шапка - мобильная версия, не зарегистрирован -->
+    <!-- Шапка - мобильная версия(320-768) -->
     <nav class="header__navigation-mobile">
-        <a href="./index.html" class="navigation-mobile__logo">
-          NewsExplorer
-        </a>
-        <button class="navigation-mobile__menu">
-          <img class="navigation-mobile__menu-img" src="../src/images/navigation__menu-mobile.png" alt="меню">
-        </button>
-      </nav>
+      <a href="./index.html" class="navigation-mobile__logo">
+        NewsExplorer
+      </a>
+      <button class="navigation-mobile__menu">
+        <img class="navigation-mobile__menu-img" src="../src/images/navigation__menu-mobile.png" alt="меню">
+      </button>
+    </nav>
+
+      <!-- Шапка, попап-меню, зарегистрирован(320-768) -->
+      <div class="popup__menu">
+        <div class="popup__menu-container">
+          <div class="popup__menu-upper">
+            <a href="./index.html" class="popup__menu-logo">
+              NewsExplorer
+            </a>
+            <img src="../src/images/close.png" alt="" class="popup__menu-close">
+          </div>
+          <a href="./index.html" class="popup__menu-main">
+            Главная
+          </a>
+          <a href="./saved-articles.html" class="popup__menu-saved-articles">
+            Сохранённые статьи
+          </a>
+          <button class="popup__menu-auth_logged-in popup__menu-auth_text">
+            Грета
+            <img class="popup__menu-auth_logged-in_icon" src="../src/images/Union.png" alt="">
+          </button>
+        </div>
+      </div>
+
+      <!-- Шапка, попап-меню, не зарегистрирован(320-768) -->
+      <div class="popup__menu">
+        <div class="popup__menu-container">
+          <div class="popup__menu-upper">
+            <a href="./index.html" class="popup__menu-logo">
+              NewsExplorer
+            </a>
+            <img src="../src/images/close.png" alt="" class="popup__menu-close">
+          </div>
+          <a href="./index.html" class="popup__menu-main">
+            Главная
+          </a>
+          <button class="popup__menu-auth_logged-in popup__menu-auth_text">
+            Авторизоваться
+          </button>
+        </div>
+      </div>
 
       <!-- Шапка - поиск новостей -->
     <section class="header__info">
@@ -70,7 +110,7 @@
   </header>
 
   <!-- Попап, вход -->
-  <div class=" popup-signin">
+  <div class="popup popup-signin">
     <div class="popup__content">
       <img src="../src/images/close.png" alt="" class="popup__close">
       <h3 class="popup__title">Вход
@@ -86,7 +126,7 @@
         <input type="password" name="password" class="popup__input popup__input-type_password" placeholder="Введите пароль">
         <span class="popup__error popup__error_password">
         </span>
-        <button type class="button popup__button-signin popup__button-signin-active">Войти
+        <button class="button popup__button-signin popup__button-signin-active">Войти
         </button>
       </form>
       <p class="popup__text-and">или
@@ -96,7 +136,7 @@
   </div>
 
   <!-- Попап, Регистрация -->
-  <div class=" popup-signup">
+  <div class="popup popup-signup">
       <div class="popup__content">
         <img src="../src/images/close.png" alt="" class="popup__close">
         <h3 class="popup__title">Регистрация
@@ -120,7 +160,7 @@
           <span class="popup__error-duplicate">
             Такой пользователь уже есть
           </span>
-          <button type class="button popup__button-signup popup__button-signup-active">
+          <button class="button popup__button-signup popup__button-signup-active">
             Зарегистрироваться
           </button>
         </form>
@@ -151,9 +191,9 @@
     <div class="preloader-container">
       <i class="preloader-circle">
       </i>
-      <p class="preloader__text">
+      <h3 class="preloader__text">
         Идет поиск новостей...
-      </p>
+      </h3>
     </div>
   </section>
 
@@ -178,14 +218,14 @@
     </h2>
     <div class="results__container">
       <article class="results__card card__lenta">
-        <button class="card__bookmark">
+        <div class="card__bookmark">
           <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="закладка">
           <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="закладка">
           <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="закладка">
           <div class="card__bookmark_alert">
             <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
           </div>
-        </button>
+        </div>
         <time class="card__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
@@ -203,14 +243,14 @@
         </address>
       </article>
       <article class="results__card card__medusa">
-        <button class="card__bookmark">
-          <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="иконка закладки">
-          <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="иконка закладки при наведении">
-          <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="иконка закладки при нажатии">
+        <div class="card__bookmark">
+          <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="закладка">
+          <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="закладка">
+          <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="закладка">
           <div class="card__bookmark_alert">
             <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
           </div>
-        </button>
+        </div>
           <time class="card__time" datetime="2019-08-02">
             2 августа, 2019
           </time>
@@ -227,14 +267,14 @@
           </address>
         </article>
         <article class="results__card card__ria">
-          <button class="card__bookmark">
-            <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="иконка закладки">
-            <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="иконка закладки при наведении">
-            <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="иконка закладки при нажатии">
+          <div class="card__bookmark">
+            <img class="card__bookmark_img" src="../src/images/bookmark.png" alt="закладка">
+            <img class="card__bookmark_img-hover" src="../src/images/bookmark-black.png" alt="закладка">
+            <img class="card__bookmark_img-active" src="../src/images/bookmark-blue.png" alt="закладка">
             <div class="card__bookmark_alert">
               <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
             </div>
-          </button>
+          </div>
           <time class="card__time" datetime="2019-08-02">
             2 августа, 2019
           </time>
@@ -258,7 +298,7 @@
 
   <!-- Основная информация об авторе -->
   <main class="main">
-    <img class="main__avatar" src="../src/images/image-03 (1).png" alt="фото автора">
+    <img class="main__avatar" src="../src/images/avatar-sample.png" alt="фото автора">
     <div class="main__container">
       <h2 class="main__title">
         Об авторе
@@ -267,11 +307,9 @@
         Это блок с описанием автора проекта.
         Здесь следует указать, как вас зовут, чем вы занимаетесь, какими
         технологиями разработки владеете.
-        <p class="main__description">
-          Также можно рассказать о процессе
-          обучения в Практикуме, чему вы тут научились,
-          и чем можете помочь потенциальным заказчикам.
-        </p>
+        Также можно рассказать о процессе
+        обучения в Практикуме, чему вы тут научились,
+        и чем можете помочь потенциальным заказчикам.
       </p>
     </div>
   </main>

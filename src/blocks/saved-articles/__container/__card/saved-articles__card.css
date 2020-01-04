@@ -1,6 +1,32 @@
 @import url('./__upper-container/card__upper-container.css');
 @import url('./__author/card__author.css');
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .saved-articles__card {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    border-radius: 16px;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+
+  .card-dzen {
+    background-image: url(../../../../../src/images/saved-articles-1-320-768.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-afisha {
+    background-image: url(../../../../../src/images/saved-articles-2-5-320-768.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-mediazone {
+    background-image: url(../../../../../src/images/saved-articles-3-320-768.png);
+    background-repeat: no-repeat;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .saved-articles__card {
     display: flex;

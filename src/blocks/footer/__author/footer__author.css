@@ -16,6 +16,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer__author {
+    width: 135px;
     margin-top: 24px;
     margin-bottom: 18px;
     margin-left: 40px;
@@ -32,6 +33,7 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .footer__author {
+    width: 136px;
     margin-left: 104px;
     margin-top: 33px;
     margin-bottom: 25px;

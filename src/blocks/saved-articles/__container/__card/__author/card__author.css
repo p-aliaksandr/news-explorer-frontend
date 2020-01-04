@@ -1,6 +1,23 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .author-dzen {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .author-afisha {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .author-mediazone {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .author-dzen {
-    margin-top: 18px;
+    margin-top: 8px;
     margin-bottom: 16px;
   }
 

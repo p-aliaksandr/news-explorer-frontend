@@ -1,6 +1,12 @@
 @import url('./__keyword/card__keyword.css');
 @import url('./__remove/card__remove.css');
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__upper-container {
+    display: flex;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__upper-container {
     display: flex;

@@ -1,6 +1,28 @@
 @import url('./_alert/card__remove_alert.css');
 @import url('./_img/card__remove_img.css');
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__remove {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 128px;
+    background: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .card__remove:hover .card__remove_alert {
+    display: block;
+  }
+
+  .card__remove:hover .card__remove_img-hover {
+    display: block;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__remove {
     position: relative;

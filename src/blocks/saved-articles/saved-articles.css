@@ -1,7 +1,15 @@
 @import url('./__container/saved-articles__container.css');
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .saved-articles {
+    width: 320px;
+    background: #f5f6f7;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .saved-articles {
+    width: 768px;
     background: #f5f6f7;
   }
 }

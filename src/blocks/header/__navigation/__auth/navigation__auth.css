@@ -12,7 +12,7 @@
   }
 
   .navigation__auth_text {
-    padding-left: 15px;
+    justify-content: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -93,7 +93,7 @@
   }
 
   .navigation__auth_text {
-    padding-left: 19px;
+    justify-content: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -108,6 +108,7 @@
   .navigation__auth_logged-in {
     display: flex;
     align-items: center;
+
     width: 112px;
     height: 48px;
     margin-left: 32px;
