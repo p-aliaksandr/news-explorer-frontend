@@ -1,1 +1,1 @@
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQBAMAAADpKDJvAAAAJFBMVEX///9HcEz///////////////////////////////////////8l87hfAAAAC3RSTlPfACAQz++fYFBAMPzeWeQAAABXSURBVAjXYyjdvVsQDBi4QSxFEAskIhEGY0lxJ0JZggrbDKEsIW5nKEtQYYshkMUABKy7nYGs3WDABJPdoIiuA6gBwgIJQVjiQIMFGaJBLpgIsrcA5ioAc0kiENqKGQ4AAAAASUVORK5CYII="
+module.exports = __webpack_public_path__ + "347d906adc77f6f2dd56fb71d1f13558.png";
