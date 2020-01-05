@@ -37,7 +37,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .footer__main {
     width: 120px;
     height: 22px;

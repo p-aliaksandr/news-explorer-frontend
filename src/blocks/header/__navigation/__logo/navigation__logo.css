@@ -82,7 +82,7 @@
 }
 
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .navigation__logo {
     width: 200px;
     height: 24px;

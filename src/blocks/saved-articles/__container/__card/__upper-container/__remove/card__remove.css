@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .card__remove {
     position: relative;
     width: 40px;

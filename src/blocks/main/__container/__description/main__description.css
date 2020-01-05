@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .main__description {
     width: 600px;
     margin-top: 24px;

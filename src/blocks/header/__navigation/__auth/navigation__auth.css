@@ -79,7 +79,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .navigation__auth {
     width: 176px;
     height: 48px;

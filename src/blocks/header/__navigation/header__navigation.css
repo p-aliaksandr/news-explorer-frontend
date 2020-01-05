@@ -67,7 +67,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .header__navigation {
     /* display: flex; */
     display: none;

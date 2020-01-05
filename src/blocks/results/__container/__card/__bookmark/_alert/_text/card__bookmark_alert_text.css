@@ -30,7 +30,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .card__bookmark_alert_text {
     margin-top: 16px;
     margin-bottom: 17px;

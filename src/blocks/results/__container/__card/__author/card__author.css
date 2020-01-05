@@ -10,7 +10,7 @@
 
     letter-spacing: 0.4px;
     text-transform: uppercase;
-
+    
     color: #b6bcbf;
   }
 
@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .card__author {
     width: 89px;
     margin-left: 24px;

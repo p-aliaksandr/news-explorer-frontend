@@ -50,7 +50,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .results__show-more {
     width: 288px;
     height: 64px;

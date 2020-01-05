@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
   .navigation__main {
     width: 69px;
     height: 47px;
