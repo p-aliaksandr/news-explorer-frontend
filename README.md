@@ -5,10 +5,11 @@
 Данный проект состоит из двух страниц. 
 Проект представляет собой сервис по поиску новостей по запросу, и возможностью сохранить их в личном кабинете.
 ```
+[Бэкенд часть](https://github.com/ablehope/news-explorer-api)
 
 ### Ссылки:
-- https://ablehope.ru
-- https://ablehope.github.io/news-explorer-frontend/
+- https://ablehope.ru,
+- https://ablehope.github.io/news-explorer-frontend/.
 
 ### Функционал:
 #### Страница "Главная":
