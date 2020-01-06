@@ -11,6 +11,7 @@
     width: 288px;
     border-radius: 16px;
     background: #fff;
+    cursor: pointer;
   }
 
   .card__lenta {
@@ -36,6 +37,7 @@
     width: 224px;
     border-radius: 16px;
     background: #fff;
+    cursor: pointer;
   }
 
   .card__lenta {
@@ -61,6 +63,7 @@
     width: 400px;;
     border-radius: 16px;
     background: #fff;
+    cursor: pointer;
   }
 
   .card__lenta {
