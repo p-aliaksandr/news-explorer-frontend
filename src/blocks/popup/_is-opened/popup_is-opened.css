@@ -1,0 +1,11 @@
+.popup.popup_is-opened {
+  display: flex;
+}
+
+.popup__menu.popup_is-opened {
+  display: flex;
+}
+
+.popup__menu-logged-in.popup_is-opened {
+  display: flex;
+}

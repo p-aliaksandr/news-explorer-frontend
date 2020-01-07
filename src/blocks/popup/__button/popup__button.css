@@ -40,12 +40,12 @@
       border-radius: 100px;
     }
 
-    .popup__button-signin-active:hover {
+    .popup__button-signin-active:hover:disabled {
       background: #347eff;
       border: none;
     }
 
-    .popup__button-signin-active:active {
+    .popup__button-signin-active:active:disabled {
       background: #2a65cc;
       border: none;
     }
@@ -89,12 +89,12 @@
       color: #fff;
     }
 
-    .popup__button-signup-active:hover {
+    .popup__button-signup-active:hover:disabled {
       background: #347eff;
       border: none;
     }
 
-    .popup__button-signup-active:active {
+    .popup__button-signup-active:active:disabled {
       background: #2a65cc;
       border: none;
     }
@@ -142,12 +142,12 @@
     border-radius: 100px;
   }
 
-  .popup__button-signin-active:hover {
+  .popup__button-signin-active:hover:disabled {
     background: #347eff;
     border: none;
   }
 
-  .popup__button-signin-active:active {
+  .popup__button-signin-active:active:disabled {
     background: #2a65cc;
     border: none;
   }
@@ -191,12 +191,12 @@
     color: #fff;
   }
 
-  .popup__button-signup-active:hover {
+  .popup__button-signup-active:hover:disabled {
     background: #347eff;
     border: none;
   }
 
-  .popup__button-signup-active:active {
+  .popup__button-signup-active:active:disabled {
     background: #2a65cc;
     border: none;
   }
