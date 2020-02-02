@@ -8,32 +8,23 @@
   <meta name="author" content="Sasha Prokofyev">
   <title>NewsExplorer</title>
   <link rel="icon" type="images/png" href="./images/favicon.png">
-  <link rel="stylesheet" href="style.aebf6ec8735e90f0694d.css?89cba20bf3229ec5ea52">
+  <link rel="stylesheet" href="style.006e084f576cdee06a02.css?a986012a714fa3c3eae2">
 </head>
 <body>
 
-  <!-- Шапка, не зарегистрирован(768-1440) -->
+  <!-- Шапка -->
   <header class="header">
-    <nav class="header__navigation">
-      <a href="./index.html" class="navigation__logo">
+    <nav class="header__navigation header__navigation-mobile">
+      <a href="./index.html" class="navigation__logo navigation__logo-mobile">
         NewsExplorer
       </a>
+      <div class="navigation__container">
       <a href="./index.html" class="navigation__main">
         Главная
       </a>
       <button class="navigation__auth navigation__auth_text">
         Авторизоваться
       </button>
-    </nav>
-
-    <!-- Шапка, зарегистрирован(768-1440) -->
-    <nav class="header__navigation_logged-in">
-      <a href="./index.html" class="navigation__logo_logged-in">
-        NewsExplorer
-      </a>
-      <a href="./index.html" class="navigation__main_logged-in">
-        Главная
-      </a>
       <a href="./saved-articles.html" class="navigation__saved-articles_logged-in">
         Сохранённые статьи
       </a>
@@ -42,54 +33,33 @@
         <span class="navigation__auth_logged-in_icon">
         </span>
       </button>
-    </nav>
-
-    <!-- Шапка - мобильная версия(320-768) -->
-    <nav class="header__navigation-mobile">
-      <a href="./index.html" class="navigation-mobile__logo">
-        NewsExplorer
-      </a>
-      <button class="navigation-mobile__menu">
-        <img class="navigation-mobile__menu-img" src="./images/navigation__menu-mobile.png" alt="меню">
+    </div>
+      <button class="navigation__menu-mobile">
+        <img class="navigation__menu-mobile-img" src="./images/navigation__menu-mobile.png" alt="меню">
       </button>
     </nav>
 
-      <!-- Шапка, попап-меню, зарегистрирован(320-768) -->
-      <div class="popup__menu-logged-in">
-        <div class="popup__menu-container">
-          <div class="popup__menu-upper">
-            <a href="./index.html" class="popup__menu-logo">
+      <!-- Шапка, попап-меню (320-768) -->
+      <div class="popup__menu popup__menu_is-opened">
+        <div class="popup__menu_container">
+          <div class="popup__menu_upper">
+            <a href="./index.html" class="popup__menu_logo">
               NewsExplorer
             </a>
-            <img src="./images/close.png" alt="" class="popup__menu-close">
+            <img src="./images/close.png" alt="" class="popup__menu_close">
           </div>
-          <a href="./index.html" class="popup__menu-main">
+          <a href="./index.html" class="popup__menu_main">
             Главная
           </a>
-          <a href="./saved-articles.html" class="popup__menu-saved-articles">
+          <button class="popup__menu_auth popup__menu_auth_text">
+            Авторизоваться
+          </button>
+          <a href="./saved-articles.html" class="popup__menu_saved-articles">
             Сохранённые статьи
           </a>
-          <button class="popup__menu-auth_logged-in popup__menu-auth_text">
+          <button class="popup__menu_auth_logged-in popup__menu_auth_text">
             Грета
-            <img class="popup__menu-auth_logged-in_icon" src="./images/Union.png" alt="">
-          </button>
-        </div>
-      </div>
-
-      <!-- Шапка, попап-меню, не зарегистрирован(320-768) -->
-      <div class="popup__menu">
-        <div class="popup__menu-container">
-          <div class="popup__menu-upper">
-            <a href="./index.html" class="popup__menu-logo">
-              NewsExplorer
-            </a>
-            <img src="./images/close.png" alt="" class="popup__menu-close">
-          </div>
-          <a href="./index.html" class="popup__menu-main">
-            Главная
-          </a>
-          <button class="popup__menu-auth_logged-in popup__menu-auth_text">
-            Авторизоваться
+            <img class="popup__menu_auth_logged-in-icon" src="./images/Union.png" alt="">
           </button>
         </div>
       </div>
@@ -110,7 +80,7 @@
   </header>
 
   <!-- Попап, вход -->
-  <div class="popup popup-signin">
+  <div class="popup popup-signin popup_is-opened">
     <div class="popup__content">
       <img src="./images/close.png" alt="" class="popup__close">
       <h3 class="popup__title">Вход
@@ -118,7 +88,7 @@
       <form class="popup__form" name="signin">
         <p class="popup__text-email">Email
         </p>
-        <input type="email" name="email" class="popup__input popup__input-type_email" placeholder="Введите почту">
+        <input type="email" name="email" class="popup__input popup__input-type_email" pattern="^[A-Za-z]((\.|-)?[A-Za-z0-9]+)+@[A-Za-z0-9](-?[A-Za-z0-9]+)+(\.[A-Za-z]{2,})+$" placeholder="Введите почту">
         <span class="popup__error popup__error_email">Неправильный формат email
         </span>
         <p class="popup__text-password">Пароль
@@ -126,7 +96,7 @@
         <input type="password" name="password" class="popup__input popup__input-type_password" placeholder="Введите пароль">
         <span class="popup__error popup__error_password">
         </span>
-        <button class="button popup__button-signin popup__button-signin-active">Войти
+        <button class="button popup__button_signin popup__button_signin-active">Войти
         </button>
       </form>
       <p class="popup__text-and">или
@@ -138,7 +108,7 @@
   </div>
 
   <!-- Попап, Регистрация -->
-  <div class="popup popup-signup">
+  <div class="popup popup-signup popup_is-opened">
       <div class="popup__content">
         <img src="./images/close.png" alt="" class="popup__close">
         <h3 class="popup__title">Регистрация
@@ -146,8 +116,10 @@
         <form class="popup__form" name="signup">
           <p class="popup__text-email">Email
           </p>
-          <input type="email" name="email" class="popup__input popup__input-type_email" placeholder="Введите почту">
-          <span class="popup__error popup__error_email">Неправильный формат email
+          <input type="email" name="email" class="popup__input popup__input-type_email"
+            pattern="^[A-Za-z]((\.|-)?[A-Za-z0-9]+)+@[A-Za-z0-9](-?[A-Za-z0-9]+)+(\.[A-Za-z]{2,})+$"
+            placeholder="Введите почту">
+          <span class="popup__error popup__error_email">
           </span>
           <p class="popup__text-password">Пароль
           </p>
@@ -156,13 +128,15 @@
           </span>
           <p class="popup__text-name">Имя
           </p>
-          <input type="text" name="name" class="popup__input popup__input-type_name" placeholder="Введите своё имя">
+          <input type="text" name="name" class="popup__input popup__input-type_name"
+            minlength="2" maxlength="20" pattern="^([А-ЯЁ]{1}[а-яё]+)(-[А-ЯЁ]{1}[а-яё]+)?$"
+            placeholder="Введите своё имя">
           <span class="popup__error popup__error_name">
           </span>
-          <span class="popup__error-duplicate">
+          <span class="popup__error_duplicate">
             Такой пользователь уже есть
           </span>
-          <button class="button popup__button-signup popup__button-signup-active">
+          <button class="button popup__button_signup popup__button_signup-active">
             Зарегистрироваться
           </button>
         </form>
@@ -176,7 +150,7 @@
     </div>
 
     <!-- Попап, пользователь успешно зарегистрирован -->
-    <div class="popup popup__signup-success">
+    <div class="popup popup__signup-success popup_is-opened">
       <div class="popup__content-success">
         <img src="./images/close.png" alt="" class="popup__close">
         <h3 class="popup__title-success">
@@ -221,9 +195,12 @@
     <div class="results__container">
       <article class="results__card card__lenta">
         <div class="card__bookmark">
-          <img class="card__bookmark_img" src="./images/bookmark.png" alt="закладка">
-          <img class="card__bookmark_img-hover" src="./images/bookmark-black.png" alt="закладка">
-          <img class="card__bookmark_img-active" src="./images/bookmark-blue.png" alt="закладка">
+            <div class="card__bookmark_img">
+              </div>
+              <div class="card__bookmark_img-hover">
+              </div>
+              <div class="card__bookmark_img-active">
+              </div>
           <div class="card__bookmark_alert">
             <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
           </div>
@@ -246,9 +223,12 @@
       </article>
       <article class="results__card card__medusa">
         <div class="card__bookmark">
-          <img class="card__bookmark_img" src="./images/bookmark.png" alt="закладка">
-          <img class="card__bookmark_img-hover" src="./images/bookmark-black.png" alt="закладка">
-          <img class="card__bookmark_img-active" src="./images/bookmark-blue.png" alt="закладка">
+          <div class="card__bookmark_img">
+          </div>
+          <div class="card__bookmark_img-hover">
+          </div>
+          <div class="card__bookmark_img-active">
+          </div>
           <div class="card__bookmark_alert">
             <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
           </div>
@@ -270,9 +250,12 @@
         </article>
         <article class="results__card card__ria">
           <div class="card__bookmark">
-            <img class="card__bookmark_img" src="./images/bookmark.png" alt="закладка">
-            <img class="card__bookmark_img-hover" src="./images/bookmark-black.png" alt="закладка">
-            <img class="card__bookmark_img-active" src="./images/bookmark-blue.png" alt="закладка">
+              <div class="card__bookmark_img">
+                </div>
+                <div class="card__bookmark_img-hover">
+                </div>
+                <div class="card__bookmark_img-active">
+                </div>
             <div class="card__bookmark_alert">
               <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
             </div>
@@ -328,6 +311,6 @@
       <img class="footer__linkedin-img" src="./images/linkedin.png" alt="linkedin">
     </a>
   </footer>
-  <script src="main.84dde7680d58514e5b6f.js?89cba20bf3229ec5ea52"></script>
+  <script src="main.84dde7680d58514e5b6f.js?a986012a714fa3c3eae2"></script>
 </body>
 </html>
