@@ -1,47 +1,33 @@
+@import url('./_text/navigation__auth_text.css');
+@import url('./_logged-in/navigation__auth_logged-in.css');
+@import url('./_icon/navigation__auth_icon.css');
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navigation__auth {
+    display: none;
+  }
+
+  .navigation__auth_text {
+    display: none;
+  }
+
+  .navigation__auth-black {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .navigation__auth {
     width: 140px;
     height: 40px;
     margin-top: 14px;
-    margin-left: 16px;
+    margin-right: 40px;
     margin-bottom: 12px;
 
     border: 1px solid #fff;
     box-sizing: border-box;
     border-radius: 100px;
-  }
-
-  .navigation__auth_text {
-    justify-content: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    background: none;
-    cursor: pointer;
-
-    color: #fff;
-  }
-
-  .navigation__auth_logged-in {
-    display: flex;
-    align-items: center;
-    width: 100px;
-    height: 40px;
-    margin-top: 14px;
-    margin-left: 16px;
-    margin-bottom: 12px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    border-radius: 100px;
-  }
-
-  .navigation__auth_logged-in_icon {
-    width: 17.41px;
-    height: 16px;
-    margin-left: 8px;
-    background-image: url(../../../../../src/images/Union.png);
+    display: none;
   }
 
   .navigation__auth-black {
@@ -58,73 +44,20 @@
     box-sizing: border-box;
     border-radius: 100px;
   }
-
-  .navigation__auth_text-black {
-    padding-left: 15px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    cursor: pointer;
-
-    color: #1a1b22;
-  }
-
-  .navigation__auth_icon-black {
-    width: 17.41px;
-    height: 16px;
-    margin-left: 8px;
-    background-image: url(../../../../../src/images/Union-black.png);
-  }
 }
 
 @media (min-width: 1024px) {
   .navigation__auth {
     width: 176px;
     height: 48px;
-    margin-left: 32px;
+    margin-right: 104px;
     margin-top: 19px;
     margin-bottom: 13px;
+    display: none;
 
     border: 1px solid #fff;
     box-sizing: border-box;
     border-radius: 100px;
-  }
-
-  .navigation__auth_text {
-    justify-content: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    background: none;
-    cursor: pointer;
-
-    color: #fff;
-  }
-
-  .navigation__auth_logged-in {
-    display: flex;
-    align-items: center;
-
-    width: 112px;
-    height: 48px;
-    margin-left: 32px;
-    margin-top: 19px;
-    margin-bottom: 13px;
-
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    border-radius: 100px;
-  }
-
-  .navigation__auth_logged-in_icon {
-    width: 17.41px;
-    height: 16px;
-    margin-left: 8px;
-    background-image: url(../../../../../src/images/Union.png);
   }
 
   .navigation__auth-black {
@@ -140,24 +73,5 @@
     border: 1px solid #1A1B22;
     box-sizing: border-box;
     border-radius: 100px;
-  }
-
-  .navigation__auth_text-black {
-    padding-left: 19px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    cursor: pointer;
-
-    color: #1A1B22;
-  }
-
-  .navigation__auth_icon-black {
-    width: 17.41px;
-    height: 16px;
-    margin-left: 8px;
-    background-image: url(../../../../../src/images/Union-black.png);
   }
 }

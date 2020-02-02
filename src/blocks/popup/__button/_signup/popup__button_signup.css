@@ -1,0 +1,110 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .popup__button_signup {
+    margin-top: 23px;
+    margin-left: 16px;
+    width: 288px;
+    height: 64px;
+    background: #e6e8eb;
+    border-radius: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+
+    color: #b6bcbf;
+  }
+
+  .popup__button_signup-active:disabled {
+    margin-top: 23px;
+    margin-left: 16px;
+    width: 288px;
+    height: 64px;
+    border-radius: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+
+    background: #2f71e5;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    color: #fff;
+  }
+
+  .popup__button_signup-active:hover {
+    background: #347eff;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    color: #fff;
+  }
+
+  .popup__button_signup-active:active {
+    background: #2a65cc;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .popup__button_signup {
+    margin-top: 8px;
+    margin-left: 35px;
+    width: 360px;
+    height: 64px;
+    background: #e6e8eb;
+    border-radius: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+
+    color: #b6bcbf;
+  }
+
+  .popup__button_signup-active:disabled {
+    margin-top: 8px;
+    margin-left: 35px;
+    width: 360px;
+    height: 64px;
+    border-radius: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+
+    background: #2f71e5;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    color: #fff;
+  }
+
+  .popup__button_signup-active:hover {
+    background: #347eff;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    color: #fff;
+  }
+
+  .popup__button_signup-active:active {
+    background: #2a65cc;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    color: #fff;
+  }
+}

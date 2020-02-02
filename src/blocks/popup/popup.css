@@ -12,7 +12,7 @@
 @import url('./__text-name/popup__text-name.css');
 @import url('./__url-signin/popup__url-signin.css');
 @import url('./__menu/popup__menu.css');
-@import url('./_is-opened/popup_is-opened.css');
+/* @import url('./_is-opened/popup_is-opened.css'); */
 
 @media (min-width: 320px) and (max-width: 767px) {
   .popup {
@@ -26,6 +26,9 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+  }
+
+  .popup_is-opened {
     display: none;
   }
 }
@@ -42,6 +45,9 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+  }
+  
+  .popup_is-opened {
     display: none;
   }
 }

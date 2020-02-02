@@ -1,0 +1,21 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .popup__menu_saved-articles {
+    margin-left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 56px;
+    text-decoration: none;
+    cursor: pointer;
+    /* display: none; */
+
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup__menu_saved-articles {
+    display: none;
+  }
+}

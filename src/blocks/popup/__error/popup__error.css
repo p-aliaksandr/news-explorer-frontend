@@ -1,3 +1,5 @@
+@import url('./_duplicate/popup__error_duplicate.css');
+
 @media (min-width: 320px) and (max-width: 767px) {
   .popup__error {
     margin-top: 3px;
@@ -8,30 +10,10 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
+    display: none;
 
     color: #ff0000;
   }
-
-  .popup__error-duplicate {
-    display:inline-block;
-    margin-top: 23px;
-    margin-left: 85px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
-
-    color: #ff0000;
-  }
-
-  .popup__error-duplicate {
-    position: relative;
-    top: 17px;
-    bottom: 12px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -44,29 +26,8 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
+    display: none;
 
     color: #ff0000;
   }
-
-  .popup__error-duplicate {
-    display:inline-block;
-    margin-top: 17px;
-    margin-bottom: 12px;
-    margin-left: 140px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
-
-    color: #ff0000;
-  }
-
-  .popup__error-duplicate {
-    position: relative;
-    top: 17px;
-    bottom: 12px;
-    }
 }

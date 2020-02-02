@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .preloader__text {
-    font-family: Roboto;
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -13,7 +13,7 @@
 
 @media (min-width: 768px) {
   .preloader__text {
-    font-family: Roboto;
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

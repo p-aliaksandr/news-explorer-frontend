@@ -1,0 +1,28 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .popup__menu_auth_logged-in {
+    display: flex;
+    align-items: center;
+    width: 288px;
+    height: 56px;
+    margin-left: 16px;
+    margin-top: 22px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: none;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .popup__menu_auth_logged-in-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup__menu_auth_logged-in {
+    display: none;
+  }
+}
