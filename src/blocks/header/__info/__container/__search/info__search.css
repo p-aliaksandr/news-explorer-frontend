@@ -2,6 +2,10 @@
   .info__search {
     width: 288px;
     height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 
     background: #fff;
 
@@ -18,13 +22,6 @@
     line-height: 22px;
 
     color: #1a1b22;
-  }
-
-  input {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 17px;
-    padding-bottom: 17px;
   }
 
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -45,6 +42,10 @@
   .info__search {
     width: 448px;
     height: 56px;
+    padding-left: 24px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 
     background: #fff;
 
@@ -61,13 +62,6 @@
     line-height: 22px;
 
     color: #1a1b22;
-  }
-
-  input {
-    padding-left: 24px;
-    padding-right: 40px;
-    padding-top: 17px;
-    padding-bottom: 17px;
   }
 
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -88,6 +82,10 @@
   .info__search {
     width: 608px;
     height: 64px;
+    padding-left: 24px;
+    padding-right: 40px;
+    padding-top: 21px;
+    padding-bottom: 21px;
 
     background: #fff;
 
@@ -104,13 +102,6 @@
     line-height: 22px;
 
     color: #1a1b22;
-  }
-
-  input {
-    padding-left: 24px;
-    padding-right: 40px;
-    padding-top: 21px;
-    padding-bottom: 21px;
   }
 
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
