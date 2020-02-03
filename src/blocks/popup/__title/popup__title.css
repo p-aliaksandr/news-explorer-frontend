@@ -4,7 +4,7 @@
     margin-top: 16px;
     margin-left: 17px;
 
-    font-family: Roboto;
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -13,16 +13,29 @@
     color: #000;
   }
 
+  .popup__title-site {
+    width: 117px;
+    margin-left: -166px;
+    margin-top: 16px;
+    font-family: Roboto Slab, arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #fff;
+  }
+
   .popup__title-success {
     margin-top: 16px;
     margin-left: 17px;
     margin-bottom: 14px;
 
-    font-family: Roboto;
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
 
     color: #000;
   }
@@ -35,7 +48,7 @@
     margin-top: 34px;
     margin-left: 36px;
 
-    font-family: Roboto;
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -44,12 +57,16 @@
     color: #1a1b22;
   }
 
+  .popup__title-site {
+    display: none;
+  }
+
   .popup__title-success {
     margin-top: 43px;
     margin-left: 36px;
     margin-bottom: 14px;
 
-    font-family: Roboto;
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
