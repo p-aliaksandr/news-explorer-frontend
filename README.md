@@ -10,7 +10,8 @@
 
 ### Ссылки:
 - https://ablehope.ru,
-- https://ablehope.github.io/news-explorer-frontend/.
+- https://ablehope.github.io/news-explorer-frontend/index,
+- https://ablehope.github.io/news-explorer-frontend/saved-articles.
 
 ### Функционал:
 #### Страница "Главная":
