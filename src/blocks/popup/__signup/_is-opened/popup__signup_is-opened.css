@@ -1,19 +1,19 @@
 @media (max-width: 767px) {
   .popup__signup_is-opened {
-    display: none;
+    display: flex;
   }
 
   .popup__signup-success_is-opened {
-    display: none;
+    display: flex;
   }
 }
 
 @media (min-width: 768px) {
   .popup__signup_is-opened {
-    display: none;
+    display: flex;
   }
 
   .popup__signup-success_is-opened {
-    display: none;
+    display: flex;
   }
 }

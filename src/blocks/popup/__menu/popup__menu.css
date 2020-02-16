@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 1;
+    display: none;
   }
 
   .popup__menu-container {
@@ -66,7 +67,7 @@
   }
 
   .popup__menu_is-opened {
-    display: none;
+    display: flex;
   }
 }
 

@@ -32,17 +32,18 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    display: none;
   }
 
   .popup__signin_is-opened {
-    display: none;
+    display: flex;
   }
 
   .popup__signup_is-opened {
-    display: none;
+    display: flex;
   }
   .popup__signup-success_is-opened {
-    display: none;
+    display: flex;
   }
 }
 
@@ -58,16 +59,17 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    display: none;
   }
   .popup__signin_is-opened {
-    display: none;
+    display: flex;
   }
 
   .popup__signup_is-opened {
-    display: none;
+    display: flex;
   }
 
   .popup__signup-success_is-opened {
-    display: none;
+    display: flex;
   }
 }
