@@ -6,6 +6,23 @@
 Проект представляет собой сервис по поиску новостей по запросу, и возможностью сохранить их в личном кабинете.
 Сборка проекта реализована при помощи Webpack.
 ```
+Для открытия/закрытия мобильного меню:
+```
+document.querySelector('.popup__menu').classList.toggle('popup__menu_is-opened');
+```
+Открытие/закрытие popup 'Вход'
+```
+document.querySelector('.popup__signin').classList.toggle('popup__signin_is-opened');
+```
+Открытие/закрытие popup 'Регистрация'
+```
+document.querySelector('.popup__signup').classList.toggle('popup__signup_is-opened');
+```
+Открытие/закрытие popup 'Успешная регистрация'
+```
+document.querySelector('.popup__signup-success').classList.toggle('popup__signup-success_is-opened');
+```
+
 [Бэкенд часть](https://github.com/ablehope/news-explorer-api)
 
 ### Ссылки:
