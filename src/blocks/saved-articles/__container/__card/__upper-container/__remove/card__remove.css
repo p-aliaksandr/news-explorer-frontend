@@ -1,7 +1,4 @@
-@import url('./_alert/card__remove_alert.css');
-@import url('./_img/card__remove_img.css');
-
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .card__remove {
     position: relative;
     width: 40px;
@@ -14,11 +11,11 @@
     border: none;
   }
 
-  .card__remove:hover .card__remove_alert {
+  .card__remove:hover .card__warning {
     display: block;
   }
 
-  .card__remove:hover .card__remove_img-hover {
+  .card__remove:hover .card__trash-hover {
     display: block;
   }
 }
@@ -36,11 +33,11 @@
     border: none;
   }
 
-  .card__remove:hover .card__remove_alert {
+  .card__remove:hover .card__warning {
     display: block;
   }
 
-  .card__remove:hover .card__remove_img-hover {
+  .card__remove:hover .card__trash-hover {
     display: block;
   }
 }
@@ -58,11 +55,11 @@
     border: none;
   }
 
-  .card__remove:hover .card__remove_alert {
+  .card__remove:hover .card__warning {
     display: block;
   }
 
-  .card__remove:hover .card__remove_img-hover {
+  .card__remove:hover .card__trash-hover {
     display: block;
   }
 }

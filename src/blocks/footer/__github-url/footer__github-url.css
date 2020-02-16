@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .footer__github-url {
     grid-area: 1 / 2 / 2 / 3;
     width: 24px;

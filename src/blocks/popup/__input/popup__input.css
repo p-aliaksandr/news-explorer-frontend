@@ -1,10 +1,11 @@
-@media (min-width: 320px) and (max-width: 767px) {
-  .popup__input {
+@media (max-width: 767px) {
+  .popup__input-type {
     width: 270px;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 9px;
     padding-left: 0;
+    outline: none;
 
     font-family: Inter;
     font-style: normal;
@@ -36,10 +37,11 @@
 }
 
 @media (min-width: 768px) {
-  .popup__input {
+  .popup__input-type {
     width: 358px;
     margin-top: 9px;
     margin-left: 36px;
+    outline: none;
 
     font-family: Inter;
     font-style: normal;

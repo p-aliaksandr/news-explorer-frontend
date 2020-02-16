@@ -1,7 +1,7 @@
 @import url('./__avatar/main__avatar.css');
 @import url('./__container/main__container.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .main {
     display: flex;
     flex-direction: column;

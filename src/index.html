@@ -25,12 +25,12 @@
       <button class="navigation__auth navigation__auth_text">
         Авторизоваться
       </button>
-      <a href="./saved-articles.html" class="navigation__saved-articles_logged-in">
+      <a href="./saved-articles.html" class="navigation__saved-articles">
         Сохранённые статьи
       </a>
-      <button class="navigation__auth_logged-in navigation__auth_text">
+      <button class="navigation__auth-logged-in navigation__auth navigation__auth_text">
         Грета
-        <span class="navigation__auth_logged-in_icon">
+        <span class="navigation__auth-logged-in-icon">
         </span>
       </button>
     </div>
@@ -41,25 +41,25 @@
 
       <!-- Шапка, попап-меню (320-768) -->
       <div class="popup__menu popup__menu_is-opened">
-        <div class="popup__menu_container">
-          <div class="popup__menu_upper">
-            <a href="./index.html" class="popup__menu_logo">
+        <div class="popup__menu-container">
+          <div class="popup__menu-upper">
+            <a href="./index.html" class="popup__menu-logo">
               NewsExplorer
             </a>
-            <img src="<%=require('./images/close.png').default%>" alt="" class="popup__menu_close">
+            <img src="<%=require('./images/close.png').default%>" alt="" class="popup__menu-close">
           </div>
-          <a href="./index.html" class="popup__menu_main">
+          <a href="./index.html" class="popup__menu-main">
             Главная
           </a>
-          <button class="popup__menu_auth popup__menu_auth_text">
+          <button class="popup__menu-auth popup__menu-auth_text">
             Авторизоваться
           </button>
-          <a href="./saved-articles.html" class="popup__menu_saved-articles">
+          <a href="./saved-articles.html" class="popup__saved-articles">
             Сохранённые статьи
           </a>
-          <button class="popup__menu_auth_logged-in popup__menu_auth_text">
+          <button class="popup__logged-in popup__logged-in_text">
             Грета
-            <img class="popup__menu_auth_logged-in-icon" src="<%=require('./images/Union.png').default%>" alt="">
+            <img class="popup__logged-in-icon" src="<%=require('./images/Union.png').default%>" alt="">
           </button>
         </div>
       </div>
@@ -80,7 +80,7 @@
   </header>
 
   <!-- Попап, вход -->
-  <div class="popup popup__signin popup_is-opened">
+  <div class="popup popup__signin popup__signin_is-opened">
     <h3 class="popup__title-site">
       NewsExplorer
     </h3>
@@ -91,15 +91,15 @@
       <form class="popup__form" name="signin">
         <p class="popup__text-email">Email
         </p>
-        <input type="email" name="email" class="popup__input popup__input-type_email" pattern="^[A-Za-z]((\.|-)?[A-Za-z0-9]+)+@[A-Za-z0-9](-?[A-Za-z0-9]+)+(\.[A-Za-z]{2,})+$" placeholder="Введите почту">
+        <input type="email" name="email" class="popup__input-type popup__input-type_email" pattern="^[A-Za-z]((\.|-)?[A-Za-z0-9]+)+@[A-Za-z0-9](-?[A-Za-z0-9]+)+(\.[A-Za-z]{2,})+$" placeholder="Введите почту">
         <span class="popup__error popup__error_email">Неправильный формат email
         </span>
-        <p class="popup__text-password">Пароль
+        <p class="popup__text-password-signin">Пароль
         </p>
-        <input type="password" name="password" class="popup__input popup__input-type_password" placeholder="Введите пароль">
+        <input type="password" name="password" class="popup__input-type popup__input-type_password" placeholder="Введите пароль">
         <span class="popup__error popup__error_password">
         </span>
-        <button class="button popup__button_signin popup__button_signin-active">Войти
+        <button class="button popup__button popup__button-active">Войти
         </button>
       </form>
       <p class="popup__text-and">или
@@ -111,7 +111,7 @@
   </div>
 
   <!-- Попап, Регистрация -->
-  <div class="popup popup__signup popup_is-opened">
+  <div class="popup popup__signup popup__signup_is-opened">
       <h3 class="popup__title-site">
         NewsExplorer
       </h3>
@@ -122,27 +122,27 @@
         <form class="popup__form" name="signup">
           <p class="popup__text-email">Email
           </p>
-          <input type="email" name="email" class="popup__input popup__input-type_email"
+          <input type="email" name="email" class="popup__input-type popup__input-type_email"
             pattern="^[A-Za-z]((\.|-)?[A-Za-z0-9]+)+@[A-Za-z0-9](-?[A-Za-z0-9]+)+(\.[A-Za-z]{2,})+$"
             placeholder="Введите почту">
           <span class="popup__error popup__error_email">
           </span>
           <p class="popup__text-password">Пароль
           </p>
-          <input type="password" name="password" class="popup__input popup__input-type_password" placeholder="Введите пароль">
+          <input type="password" name="password" class="popup__input-type popup__input-type_password" placeholder="Введите пароль">
           <span class="popup__error popup__error_password">
           </span>
           <p class="popup__text-name">Имя
           </p>
-          <input type="text" name="name" class="popup__input popup__input-type_name"
+          <input type="text" name="name" class="popup__input-type popup__input-type_name"
             minlength="2" maxlength="20" pattern="^([А-ЯЁ]{1}[а-яё]+)(-[А-ЯЁ]{1}[а-яё]+)?$"
             placeholder="Введите своё имя">
           <span class="popup__error popup__error_name">
           </span>
-          <span class="popup__error_duplicate">
+          <span class="popup__error popup__error_duplicate">
             Такой пользователь уже есть
           </span>
-          <button class="button popup__button_signup popup__button_signup-active">
+          <button class="button popup__button popup__button-active">
             Зарегистрироваться
           </button>
         </form>
@@ -156,7 +156,7 @@
     </div>
 
     <!-- Попап, пользователь успешно зарегистрирован -->
-    <div class="popup popup__signup-success popup_is-opened">
+    <div class="popup popup__signup-success popup__signup-success_is-opened">
       <h3 class="popup__title-site">
         NewsExplorer
       </h3>
@@ -204,14 +204,14 @@
     <div class="results__container">
       <article class="results__card card__lenta">
         <div class="card__bookmark">
-            <div class="card__bookmark_img">
+            <div class="card__alert">
               </div>
-              <div class="card__bookmark_img-hover">
+              <div class="card__alert-hover">
               </div>
-              <div class="card__bookmark_img-active">
+              <div class="card__alert-active">
               </div>
-          <div class="card__bookmark_alert">
-            <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
+          <div class="card__notification">
+            <p class="card__notification-text">Войдите, чтобы сохранять статьи</p>
           </div>
         </div>
         <time class="card__time" datetime="2019-08-02">
@@ -232,16 +232,16 @@
       </article>
       <article class="results__card card__medusa">
         <div class="card__bookmark">
-          <div class="card__bookmark_img">
-          </div>
-          <div class="card__bookmark_img-hover">
-          </div>
-          <div class="card__bookmark_img-active">
-          </div>
-          <div class="card__bookmark_alert">
-            <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
-          </div>
+          <div class="card__alert">
+            </div>
+            <div class="card__alert-hover">
+            </div>
+            <div class="card__alert-active">
+            </div>
+        <div class="card__notification">
+          <p class="card__notification-text">Войдите, чтобы сохранять статьи</p>
         </div>
+      </div>
           <time class="card__time" datetime="2019-08-02">
             2 августа, 2019
           </time>
@@ -259,16 +259,16 @@
         </article>
         <article class="results__card card__ria">
           <div class="card__bookmark">
-              <div class="card__bookmark_img">
-                </div>
-                <div class="card__bookmark_img-hover">
-                </div>
-                <div class="card__bookmark_img-active">
-                </div>
-            <div class="card__bookmark_alert">
-              <p class="card__bookmark_alert_text">Войдите, чтобы сохранять статьи</p>
-            </div>
+            <div class="card__alert">
+              </div>
+              <div class="card__alert-hover">
+              </div>
+              <div class="card__alert-active">
+              </div>
+          <div class="card__notification">
+            <p class="card__notification-text">Войдите, чтобы сохранять статьи</p>
           </div>
+        </div>
           <time class="card__time" datetime="2019-08-02">
             2 августа, 2019
           </time>

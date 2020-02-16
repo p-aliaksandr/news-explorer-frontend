@@ -1,7 +1,4 @@
-@import url('./_alert/card__bookmark_alert.css');
-@import url('./_img/card__bookmark_img.css');
-
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .card__bookmark {
     position: relative;
     width: 40px;
@@ -14,19 +11,19 @@
     cursor: pointer;
   }
 
-  .card__bookmark:hover .card__bookmark_alert {
+  .card__bookmark:hover .card__notification {
     display: block;
   }
 
-  .card__bookmark:hover .card__bookmark_img-hover {
+  .card__bookmark:hover .card__alert-hover {
     display: block;
   }
 
-  .card__bookmark:active .card__bookmark_img-active {
+  .card__bookmark:active .card__alert-active {
     display: block;
   }
 
-  .card__bookmark:active .card__bookmark_alert {
+  .card__bookmark:active .card__notification {
     display: none;
   }
 }
@@ -44,19 +41,19 @@
     cursor: pointer;
   }
 
-  .card__bookmark:hover .card__bookmark_alert {
+  .card__bookmark:hover .card__notification {
     display: block;
   }
 
-  .card__bookmark:hover .card__bookmark_img-hover {
+  .card__bookmark:hover .card__alert-hover {
     display: block;
   }
 
-  .card__bookmark:active .card__bookmark_img-active {
+  .card__bookmark:active .card__alert-active {
     display: block;
   }
 
-  .card__bookmark:active .card__bookmark_alert {
+  .card__bookmark:active .card__notification {
     display: none;
   }
 }
@@ -74,19 +71,19 @@
     cursor: pointer;
   }
 
-  .card__bookmark:hover .card__bookmark_alert {
+  .card__bookmark:hover .card__notification {
     display: block;
   }
 
-  .card__bookmark:hover .card__bookmark_img-hover {
+  .card__bookmark:hover .card__alert-hover {
     display: block;
   }
 
-  .card__bookmark:active .card__bookmark_img-active {
+  .card__bookmark:active .card__alert-active {
     display: block;
   }
 
-  .card__bookmark:active .card__bookmark_alert {
+  .card__bookmark:active .card__notification {
     display: none;
   }
 }

@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .results__title {
     width: 288px;
     margin-left: 16px;

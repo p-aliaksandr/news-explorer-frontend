@@ -12,8 +12,13 @@
 @import url('./__text-name/popup__text-name.css');
 @import url('./__url-signin/popup__url-signin.css');
 @import url('./__menu/popup__menu.css');
+@import url('./__menu-auth/popup__menu-auth.css');
+@import url('./__signin/popup__signin.css');
+@import url('./__signup/popup__signup.css');
+@import url('./__saved-articles/popup__saved-articles.css');
+@import url('./__logged-in/popup__logged-in.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .popup {
     position: fixed;
     top: 0;
@@ -29,7 +34,14 @@
     z-index: 1;
   }
 
-  .popup_is-opened {
+  .popup__signin_is-opened {
+    display: none;
+  }
+
+  .popup__signup_is-opened {
+    display: none;
+  }
+  .popup__signup-success_is-opened {
     display: none;
   }
 }
@@ -47,8 +59,15 @@
     justify-content: center;
     z-index: 1;
   }
+  .popup__signin_is-opened {
+    display: none;
+  }
 
-  .popup_is-opened {
+  .popup__signup_is-opened {
+    display: none;
+  }
+
+  .popup__signup-success_is-opened {
     display: none;
   }
 }

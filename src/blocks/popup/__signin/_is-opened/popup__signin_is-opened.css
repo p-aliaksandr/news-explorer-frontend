@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  .popup__signin_is-opened {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup__signin_is-opened {
+    display: none;
+  }
+}

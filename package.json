@@ -4,10 +4,10 @@
   "description": "Frontend part for the Yandex.Praktikum graduation project",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development&webpack-dev-server --mode development --open --watch",
-    "build": "cross-env NODE_ENV=production&rimraf dist && webpack --mode production",
-    "deploy": "cross-env NODE_ENV=production&&npm run build &&gh-pages -d dist",
-    "deployme": "cross-env NODE_ENV=production&npm run build && scp -r ./dist/* ablehope@130.193.38.218:/home/ablehope/news-explorer-frontend"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist",
+    "deployme": "cross-env NODE_ENV=production npm run build && scp -r ./dist/* ablehope@130.193.38.218:/home/ablehope/news-explorer-frontend"
   },
   "repository": {
     "type": "git",

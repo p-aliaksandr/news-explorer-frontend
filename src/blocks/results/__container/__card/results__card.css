@@ -3,8 +3,10 @@
 @import url('./__description/card__description.css');
 @import url('./__author/card__author.css');
 @import url('./__bookmark/card__bookmark.css');
+@import url('./__alert/card__alert.css');
+@import url('./__notification/card__notification.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .results__card {
     display: flex;
     flex-direction: column;

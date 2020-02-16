@@ -1,8 +1,6 @@
 @import url('./_text/navigation__auth_text.css');
-@import url('./_logged-in/navigation__auth_logged-in.css');
-@import url('./_icon/navigation__auth_icon.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .navigation__auth {
     display: none;
   }
@@ -12,6 +10,14 @@
   }
 
   .navigation__auth-black {
+    display: none;
+  }
+
+  .navigation__auth-logged-in {
+    display: none;
+  }
+
+  .navigation__auth-logged-in-icon {
     display: none;
   }
 }
@@ -44,6 +50,34 @@
     box-sizing: border-box;
     border-radius: 100px;
   }
+
+  .navigation__auth-logged-in {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 40px;
+    margin-bottom: 12px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 100px;
+    /* display: none; */
+  }
+
+  .navigation__auth-logged-in-icon {
+    width: 17.41px;
+    height: 16px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union.png);
+  }
+
+  .navigation__auth-black-icon {
+    width: 17.41px;
+    height: 16px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union-black.png);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -73,5 +107,35 @@
     border: 1px solid #1A1B22;
     box-sizing: border-box;
     border-radius: 100px;
+  }
+
+  .navigation__auth-logged-in {
+    display: flex;
+    align-items: center;
+
+    width: 112px;
+    height: 48px;
+    margin-top: 19px;
+    margin-bottom: 13px;
+    margin-right: 104px;
+    /* display: none; */
+
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+
+  .navigation__auth-logged-in-icon {
+    width: 17.41px;
+    height: 16px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union.png);
+  }
+
+  .navigation__auth-black-icon {
+    width: 17.41px;
+    height: 16px;
+    margin-left: 8px;
+    background-image: url(../../../../../src/images/Union-black.png);
   }
 }

@@ -4,7 +4,7 @@
 @import url('./__github-url/footer__github-url.css');
 @import url('./__linkedin-url/footer__linkedin-url.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

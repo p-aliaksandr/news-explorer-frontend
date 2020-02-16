@@ -1,5 +1,7 @@
-@media (min-width: 320px) and (max-width: 767px) {
-  .popup__menu_auth_logged-in {
+@import url('./_text/popup__logged-in_text.css');
+
+@media (max-width: 767px) {
+  .popup__logged-in {
     display: flex;
     align-items: center;
     width: 288px;
@@ -14,7 +16,7 @@
     /* display: none; */
   }
 
-  .popup__menu_auth_logged-in-icon {
+  .popup__logged-in-icon {
     width: 18px;
     height: 18px;
     margin-left: 8px;
@@ -22,7 +24,13 @@
 }
 
 @media (min-width: 768px) {
-  .popup__menu_auth_logged-in {
+  .popup__logged-in-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup__logged-in {
     display: none;
   }
 }

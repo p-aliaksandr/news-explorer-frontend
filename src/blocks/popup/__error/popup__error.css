@@ -1,6 +1,6 @@
 @import url('./_duplicate/popup__error_duplicate.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .popup__error {
     margin-top: 3px;
     margin-left: 16px;

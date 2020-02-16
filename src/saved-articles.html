@@ -13,7 +13,7 @@
 <body>
   <!-- Шапка -->
   <header class="header-saved-articles">
-    <nav class="header__navigation-black">
+    <nav class="header__navigation-black header__navigation-mobile">
       <a href="./index.html" class="navigation__logo-black navigation__logo-mobile-black">
         NewsExplorer
       </a>
@@ -23,9 +23,9 @@
       <a href="./saved-articles.html" class="navigation__saved-articles-black">
         Сохранённые статьи
       </a>
-      <button class="navigation__auth-black navigation__auth_text-black">
+      <button class="navigation__auth-black navigation__auth-black_text">
         Грета
-        <span class="navigation__auth_icon-black">
+        <span class="navigation__auth-black-icon">
         </span>
       </button>
       <button class="navigation__menu-mobile">
@@ -49,22 +49,22 @@
 
   <!-- Шапка, попап-меню(320-768) -->
   <div class="popup__menu popup__menu_is-opened">
-    <div class="popup__menu_container">
-      <div class="popup__menu_upper">
-        <a href="./index.html" class="popup__menu_logo">
+    <div class="popup__menu-container">
+      <div class="popup__menu-upper">
+        <a href="./index.html" class="popup__menu-logo">
           NewsExplorer
         </a>
-        <img src="<%=require('./images/close.png').default%>" alt="" class="popup__menu_close">
+        <img src="<%=require('./images/close.png').default%>" alt="" class="popup__menu-close">
       </div>
-      <a href="./index.html" class="popup__menu_main">
+      <a href="./index.html" class="popup__menu-main">
         Главная
       </a>
-      <a href="./saved-articles.html" class="popup__menu_saved-articles">
+      <a href="./saved-articles.html" class="popup__saved-articles">
         Сохранённые статьи
       </a>
-      <button class="popup__menu_auth_logged-in popup__menu_auth_text">
+      <button class="popup__logged-in popup__logged-in_text">
         Грета
-        <img class="popup__menu_auth_logged-in-icon" src="<%=require('./images/Union.png').default%>" alt="">
+        <img class="popup__logged-in-icon" src="<%=require('./images/Union.png').default%>" alt="">
       </button>
     </div>
   </div>
@@ -80,10 +80,10 @@
             </p>
           </div>
           <div class="card__remove">
-            <img class="card__remove_img" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__remove_img-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__remove_alert">
-              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="card__warning">
+              <p class="card__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
@@ -111,10 +111,10 @@
             </p>
           </div>
           <div class="card__remove">
-            <img class="card__remove_img" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__remove_img-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__remove_alert">
-              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="card__warning">
+              <p class="card__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
@@ -141,10 +141,10 @@
             </p>
           </div>
           <div class="card__remove">
-            <img class="card__remove_img" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__remove_img-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__remove_alert">
-              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="card__warning">
+              <p class="card__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
@@ -171,10 +171,10 @@
             </p>
           </div>
           <div class="card__remove">
-            <img class="card__remove_img" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__remove_img-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__remove_alert">
-              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="card__warning">
+              <p class="card__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
@@ -202,10 +202,10 @@
             </p>
           </div>
           <div class="card__remove">
-            <img class="card__remove_img" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__remove_img-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__remove_alert">
-              <p class="card__remove_alert_text">Убрать из сохранённых</p>
+            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="card__warning">
+              <p class="card__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>

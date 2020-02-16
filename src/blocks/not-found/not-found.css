@@ -2,7 +2,7 @@
 @import url('./__title/not-found__title.css');
 @import url('./__text/not-found__text.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .not-found {
     /* display: none; */
     display: flex;

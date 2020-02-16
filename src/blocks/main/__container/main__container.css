@@ -1,7 +1,7 @@
 @import url('./__description/main__description.css');
 @import url('./__title/main__title.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .main__container {
     width: 288px;
     display: flex;

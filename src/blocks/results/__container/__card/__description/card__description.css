@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .card__description {
     width: 256px;
     margin-left: 16px;

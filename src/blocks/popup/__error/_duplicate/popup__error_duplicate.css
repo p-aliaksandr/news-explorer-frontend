@@ -1,8 +1,8 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .popup__error_duplicate {
-    display:inline-block;
-    margin-top: 23px;
-    margin-left: 85px;
+    position: absolute;
+    padding-left: 57px;
+    padding-top: 2px;
 
     font-family: Inter;
     font-style: normal;
@@ -10,24 +10,17 @@
     font-size: 12px;
     line-height: 15px;
     text-align: center;
+    /* visibility: hidden; */
 
     color: #ff0000;
   }
-
-  .popup__error_duplicate {
-    position: relative;
-    top: 17px;
-    bottom: 12px;
-    }
 }
 
 @media (min-width: 768px) {
   .popup__error_duplicate {
-    display:inline-block;
-    margin-top: 17px;
-    margin-bottom: 15px;
-    margin-left: 140px;
-
+    position: absolute;
+    padding-left: 90px;
+    padding-top: 17px;
 
     font-family: Inter;
     font-style: normal;
@@ -35,13 +28,8 @@
     font-size: 12px;
     line-height: 15px;
     text-align: center;
+    /* visibility: hidden; */
 
     color: #ff0000;
   }
-
-  .popup__error_duplicate {
-    position: relative;
-    top: 17px;
-    bottom: 12px;
-    }
 }

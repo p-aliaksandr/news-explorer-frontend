@@ -1,11 +1,11 @@
-@media (min-width: 320px) and (max-width: 767px) {
-  .card__remove_img {
+@media (max-width: 767px) {
+  .card__trash {
     position: absolute;
     top: 11px;
     left: 11px;
   }
 
-  .card__remove_img-hover {
+  .card__trash-hover {
     display: none;
     position: absolute;
     top: 11px;
@@ -14,13 +14,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .card__remove_img {
+  .card__trash {
     position: absolute;
     top: 11px;
     left: 11px;
   }
 
-  .card__remove_img-hover {
+  .card__trash-hover {
     display: none;
     position: absolute;
     top: 11px;
@@ -29,13 +29,13 @@
 }
 
 @media (min-width: 1024px) {
-  .card__remove_img {
+  .card__trash {
     position: absolute;
     top: 11px;
     left: 11px;
   }
 
-  .card__remove_img-hover {
+  .card__trash-hover {
     display: none;
     position: absolute;
     top: 11px;

@@ -1,5 +1,5 @@
-@media (min-width: 320px) and (max-width: 767px) {
-  .popup__menu_auth_text {
+@media (max-width: 767px) {
+  .popup__logged-in_text {
     justify-content: center;
     font-family: Roboto;
     font-style: normal;

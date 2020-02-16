@@ -1,7 +1,7 @@
 @import url('./__upper-container/card__upper-container.css');
 @import url('./__author/card__author.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .saved-articles__card {
     display: flex;
     flex-direction: column;

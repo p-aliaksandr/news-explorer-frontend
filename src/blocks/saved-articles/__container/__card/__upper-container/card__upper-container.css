@@ -1,7 +1,9 @@
 @import url('./__keyword/card__keyword.css');
 @import url('./__remove/card__remove.css');
+@import url('./__trash/card_trash.css');
+@import url('./__warning/card__warning.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .card__upper-container {
     display: flex;
   }

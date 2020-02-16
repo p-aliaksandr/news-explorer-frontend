@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .navigation__logo-mobile {
     width: 117px;
     height: 24px;

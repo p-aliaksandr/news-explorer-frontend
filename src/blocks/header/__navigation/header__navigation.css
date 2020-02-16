@@ -1,11 +1,11 @@
 @import url('./__logo/navigation__logo.css');
 @import url('./__main/navigation__main.css');
 @import url('./__auth/navigation__auth.css');
-@import url('./__saved-articles/navigation__saved-articles_logged-in.css');
+@import url('./__saved-articles/navigation__saved-articles.css');
 @import url('./__menu/navigation__menu-mobile.css');
 @import url('./__container/navigation__container.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header__navigation {
     /* display: flex; */
     display: none;

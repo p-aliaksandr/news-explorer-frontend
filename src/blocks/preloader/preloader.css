@@ -1,6 +1,6 @@
 @import url('./__text/preloader__text.css');
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .preloader {
     /* display: none; */
     background: #f5f6f7;

@@ -1,7 +1,0 @@
-@media (min-width: 320px) and (max-width: 767px) {
-  .popup__menu_upper {
-    display: flex;
-    background: rgba(196, 196, 196, 0.01);
-    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
-  }
-}
