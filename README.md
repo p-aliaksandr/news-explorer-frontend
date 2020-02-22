@@ -12,15 +12,15 @@ document.querySelector('.popup__menu').classList.toggle('popup__menu_is-opened')
 ```
 Открытие/закрытие popup 'Вход'
 ```
-document.querySelector('.popup__signin').classList.toggle('popup__signin_is-opened');
+document.querySelector('.popup-signin').classList.toggle('popup_is-opened');
 ```
 Открытие/закрытие popup 'Регистрация'
 ```
-document.querySelector('.popup__signup').classList.toggle('popup__signup_is-opened');
+document.querySelector('.popup-signup').classList.toggle('popup_is-opened');
 ```
 Открытие/закрытие popup 'Успешная регистрация'
 ```
-document.querySelector('.popup__signup-success').classList.toggle('popup__signup-success_is-opened');
+document.querySelector('.popup-success').classList.toggle('popup_is-opened');
 ```
 
 [Бэкенд часть](https://github.com/ablehope/news-explorer-api)
