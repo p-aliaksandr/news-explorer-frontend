@@ -1,5 +1,20 @@
 @import url('./__navigation/header__navigation.css');
 @import url('./__info/header__info.css');
+@import url('./__container/header__container.css');
+@import url('./__auth/header__auth.css');
+@import url('./__saved-articles/header__saved-articles.css');
+@import url('./__logo/header__logo.css');
+@import url('./__main/header__main.css');
+@import url('./__menu-mobile/header__menu-mobile.css');
+@import url('./__title/header__title.css');
+@import url('./__description/header__description.css');
+@import url('./__search/header__search.css');
+@import url('./__button/header__button.css');
+@import url('./__keywords/header__keywords-saved-articles.css');
+@import url('./__text/header__text-saved-articles.css');
+@import url('./__container-search/header__container-search.css');
+@import url('./__navigation-mobile/header__navigation-mobile.css');
+@import url('./__navigation-black/header__navigation-black.css');
 
 @media (max-width: 767px) {
   .header {

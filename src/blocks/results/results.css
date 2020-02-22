@@ -1,6 +1,21 @@
 @import url('./__title/results__title.css');
 @import url('./__container/results__container.css');
 @import url('./__show-more/results__show-more.css');
+@import url('./__lenta/results__lenta.css');
+@import url('./__medusa/results__medusa.css');
+@import url('./__ria/results__ria.css');
+@import url('./__bookmark/results__bookmark.css');
+@import url('./__alert/results__alert.css');
+@import url('./__author/results__author.css');
+@import url('./__description/results__description.css');
+@import url('./__notification/results__notification.css');
+@import url('./__time/results__time.css');
+@import url('./__title-card/results__title-card.css');
+@import url('./__card/results__card.css');
+@import url('./__author-lenta/results__author-lenta.css');
+@import url('./__author-medusa/results__author-medusa.css');
+@import url('./__author-ria/results__author-ria.css');
+@import url('./__notification-text/results__notification-text.css');
 
 @media (max-width: 767px) {
   .results {

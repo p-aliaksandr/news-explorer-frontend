@@ -14,41 +14,39 @@
   <!-- Шапка -->
   <header class="header-saved-articles">
     <nav class="header__navigation-black header__navigation-mobile">
-      <a href="./index.html" class="navigation__logo-black navigation__logo-mobile-black">
+      <a href="./index.html" class="header__logo-black header__logo-mobile-black">
         NewsExplorer
       </a>
-      <a href="./index.html" class="navigation__main-black">
+      <a href="./index.html" class="header__main-black">
         Главная
       </a>
-      <a href="./saved-articles.html" class="navigation__saved-articles-black">
+      <a href="./saved-articles.html" class="header__saved-articles-black">
         Сохранённые статьи
       </a>
-      <button class="navigation__auth-black navigation__auth-black_text">
+      <button class="header__auth-black header__auth-black_text">
         Грета
-        <span class="navigation__auth-black-icon">
+        <span class="header__auth-black-icon">
         </span>
       </button>
-      <button class="navigation__menu-mobile">
-        <img class="navigation__menu-mobile-img" src="<%=require('./images/navigation__menu-mobile-black.png').default%>" alt="меню">
-      </button>
+        <img class="header__menu-mobile" src="<%=require('./images/navigation__menu-mobile-black.png').default%>" alt="меню">
     </nav>
 
     <!-- Шапка, информация - сколько сохранено статей, ключевые слова(320-1440) -->
     <section class="header__info-saved-articles">
-      <h2 class="info__title-saved-articles">
+      <h2 class="header__title-saved-articles">
         Сохранённые статьи
       </h2>
-      <p class="info__text-saved-articles">
+      <p class="header__text-saved-articles">
         Грета, у вас 5 сохранённых статей
       </p>
-      <p class="info__keywords-saved-articles">
+      <p class="header__keywords-saved-articles">
         По ключевым словам: <b>Природа, Тайга</b> и <b>2 другим</b>
       </p>
     </section>
   </header>
 
   <!-- Шапка, попап-меню(320-768) -->
-  <div class="popup__menu popup__menu_is-opened">
+  <div class="popup__menu">
     <div class="popup__menu-container">
       <div class="popup__menu-upper">
         <a href="./index.html" class="popup__menu-logo">
@@ -59,6 +57,9 @@
       <a href="./index.html" class="popup__menu-main">
         Главная
       </a>
+      <button class="popup__menu-auth popup__menu-auth_text">
+        Авторизоваться
+      </button>
       <a href="./saved-articles.html" class="popup__saved-articles">
         Сохранённые статьи
       </a>
@@ -72,155 +73,155 @@
   <!-- Основная информация, все сохранённые статьи -->
   <main class="saved-articles">
     <div class="saved-articles__container">
-      <article class="saved-articles__card card-dzen">
-        <div class="card__upper-container">
-          <div class="card__keyword">
-            <p class="card__keyword-text">
+      <article class="saved-articles__card saved-articles__dzen">
+        <div class="saved-articles__upper-container">
+          <div class="saved-articles__keyword">
+            <p class="saved-articles__keyword-text">
               Природа
             </p>
           </div>
-          <div class="card__remove">
-            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__warning">
-              <p class="card__warning-text">Убрать из сохранённых</p>
+          <div class="saved-articles__remove">
+            <img class="saved-articles__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="saved-articles__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="saved-articles__warning">
+              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
-        <time class="card__time" datetime="2019-08-02">
+        <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="card__title">
+        <h3 class="saved-articles__title">
           Национальное достояние – парки
         </h3>
-        <p class="card__description" >
+        <p class="saved-articles__description" >
           В 2016 году Америка отмечала важный юбилей:
           сто лет назад здесь начала складываться система
           национальных парков – охраняемых территорий, где
           и сегодня каждый может приобщиться к природе.
         </p>
-        <address class="card__author author-dzen" >
+        <address class="saved-articles__author saved-articles__author-dzen" >
           ДЗЕН
         </address>
       </article>
-      <article class="saved-articles__card card-afisha">
-        <div class="card__upper-container">
-          <div class="card__keyword">
-            <p class="card__keyword-text">
+      <article class="saved-articles__card saved-articles__afisha">
+        <div class="saved-articles__upper-container">
+          <div class="saved-articles__keyword">
+            <p class="saved-articles__keyword-text">
               Природа
             </p>
           </div>
-          <div class="card__remove">
-            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__warning">
-              <p class="card__warning-text">Убрать из сохранённых</p>
+          <div class="saved-articles__remove">
+            <img class="saved-articles__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="saved-articles__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="saved-articles__warning">
+              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
-        <time class="card__time" datetime="2019-08-02">
+        <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="card__title">
+        <h3 class="saved-articles__title">
           Лесные огоньки: история одной фотографии
         </h3>
-        <p class="card__description" >
+        <p class="saved-articles__description" >
           Фотограф отвлеклась от освещения суровой политической
           реальности Мексики, чтобы запечатлеть ускользающую
           красоту одного из местных чудес природы.
         </p>
-        <address class="card__author author-afisha" >
+        <address class="saved-articles__author saved-articles__author-afisha" >
           Афиша
         </address>
       </article>
-      <article class="saved-articles__card card-mediazone">
-        <div class="card__upper-container">
-          <div class="card__keyword">
-            <p class="card__keyword-text">
+      <article class="saved-articles__card saved-articles__mediazone">
+        <div class="saved-articles__upper-container">
+          <div class="saved-articles__keyword">
+            <p class="saved-articles__keyword-text">
               Тайга
             </p>
           </div>
-          <div class="card__remove">
-            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__warning">
-              <p class="card__warning-text">Убрать из сохранённых</p>
+          <div class="saved-articles__remove">
+            <img class="saved-articles__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="saved-articles__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="saved-articles__warning">
+              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
-        <time class="card__time" datetime="2019-08-02">
+        <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="card__title">
+        <h3 class="saved-articles__title">
           «Первозданная тайга»: новый фотопроект Игоря Шпиленка
         </h3>
-        <p class="card__description">
+        <p class="saved-articles__description">
           Знаменитый фотограф снимает первозданные леса России,
           чтобы рассказать о необходимости их сохранения. В этот
           раз он отправился в Двинско-Пинежскую тайгу, где...
         </p>
-        <address class="card__author author-mediazone" >
+        <address class="saved-articles__author saved-articles__author-mediazone" >
           Медиазона
         </address>
       </article>
-      <article class="saved-articles__card card-dzen">
-        <div class="card__upper-container">
-          <div class="card__keyword">
-            <p class="card__keyword-text">
+      <article class="saved-articles__card saved-articles__dzen">
+        <div class="saved-articles__upper-container">
+          <div class="saved-articles__keyword">
+            <p class="saved-articles__keyword-text">
               Парки
             </p>
           </div>
-          <div class="card__remove">
-            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__warning">
-              <p class="card__warning-text">Убрать из сохранённых</p>
+          <div class="saved-articles__remove">
+            <img class="saved-articles__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="saved-articles__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="saved-articles__warning">
+              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
-        <time class="card__time" datetime="2019-08-02">
+        <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="card__title">
+        <h3 class="saved-articles__title">
           Национальное достояние – парки
         </h3>
-        <p class="card__description" >
+        <p class="saved-articles__description" >
           В 2016 году Америка отмечала важный юбилей:
           сто лет назад здесь начала складываться система
           национальных парков – охраняемых территорий, где
           и сегодня каждый может приобщиться к природе.
         </p>
-        <address class="card__author author-dzen" >
+        <address class="saved-articles__author saved-articles__author-dzen" >
           ДЗЕН
         </address>
       </article>
-      <article class="saved-articles__card card-afisha">
-        <div class="card__upper-container">
-          <div class="card__keyword">
-            <p class="card__keyword-text">
+      <article class="saved-articles__card saved-articles__afisha">
+        <div class="saved-articles__upper-container">
+          <div class="saved-articles__keyword">
+            <p class="saved-articles__keyword-text">
               Фотография
             </p>
           </div>
-          <div class="card__remove">
-            <img class="card__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
-            <img class="card__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
-            <div class="card__warning">
-              <p class="card__warning-text">Убрать из сохранённых</p>
+          <div class="saved-articles__remove">
+            <img class="saved-articles__trash" src="<%=require('./images/trash-grey.png').default%>" alt="корзина">
+            <img class="saved-articles__trash-hover" src="<%=require('./images/trash-black.png').default%>" alt="корзина">
+            <div class="saved-articles__warning">
+              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
             </div>
           </div>
         </div>
-        <time class="card__time" datetime="2019-08-02">
+        <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="card__title">
+        <h3 class="saved-articles__title">
           Лесные огоньки: история одной фотографии
         </h3>
-        <p class="card__description" >
+        <p class="saved-articles__description" >
           Фотограф отвлеклась от освещения суровой политической
           реальности Мексики, чтобы запечатлеть ускользающую
           красоту одного из местных чудес природы.
         </p>
-        <address class="card__author author-afisha" >
+        <address class="saved-articles__author saved-articles__author-afisha" >
           Афиша
         </address>
       </article>

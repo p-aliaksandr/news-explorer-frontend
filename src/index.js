@@ -1,6 +1,6 @@
 import './pages/style.css';
 
-const buttonMobileMenu = document.querySelector('.navigation__menu-mobile');
+const buttonMobileMenu = document.querySelector('.header__menu-mobile');
 const crossMobileMenu = document.querySelector('.popup__menu-close');
 
 function openMobileMenu() {

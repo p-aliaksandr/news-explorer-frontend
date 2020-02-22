@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .header__container {
+    display: flex;
+    margin-left: 132px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__container {
+    display: flex;
+    margin-left: 607px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

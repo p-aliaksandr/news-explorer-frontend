@@ -1,22 +1,7 @@
-@import url('./__logo/navigation__logo.css');
-@import url('./__main/navigation__main.css');
-@import url('./__auth/navigation__auth.css');
-@import url('./__saved-articles/navigation__saved-articles.css');
-@import url('./__menu/navigation__menu-mobile.css');
-@import url('./__container/navigation__container.css');
-
 @media (max-width: 767px) {
   .header__navigation {
     /* display: flex; */
     display: none;
-
-    background: rgba(196, 196, 196, 0.01);
-    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
-  }
-
-  .header__navigation-mobile {
-    display: flex;
-    /* display: none; */
 
     background: rgba(196, 196, 196, 0.01);
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
@@ -31,16 +16,6 @@
     background: rgba(196, 196, 196, 0.01);
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
   }
-
-  .header__navigation-black {
-    display: flex;
-
-    background: #fff;
-    box-shadow: inset 0px -1px 0px #d1d2d6;
-  }
-  .header__navigation-mobile {
-    overflow: hidden;
-  }
 }
 
   @media (min-width: 1024px) {
@@ -50,16 +25,5 @@
 
     background: rgba(196, 196, 196, 0.01);
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
-  }
-
-  .header__navigation-black {
-    display: flex;
-
-    background: #fff;
-    box-shadow: inset 0px -1px 0px #d1d2d6;
-  }
-
-  .header__navigation-mobile {
-    overflow: hidden;
   }
 }
