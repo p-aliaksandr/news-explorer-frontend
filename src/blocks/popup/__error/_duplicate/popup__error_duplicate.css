@@ -1,8 +1,8 @@
 @media (max-width: 767px) {
   .popup__error_duplicate {
     position: absolute;
-    padding-left: 57px;
-    padding-top: 2px;
+    left: 57px;
+    top: 2px;
 
     font-family: Inter;
     font-style: normal;
@@ -19,8 +19,8 @@
 @media (min-width: 768px) {
   .popup__error_duplicate {
     position: absolute;
-    padding-left: 90px;
-    padding-top: 17px;
+    left: 90px;
+    top: 17px;
 
     font-family: Inter;
     font-style: normal;
