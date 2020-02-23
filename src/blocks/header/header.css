@@ -29,38 +29,22 @@
 @import url('./__menu-mobile-upper/header__menu-mobile-upper.css');
 @import url('./__popup-mobile-close/header__popup-mobile-close.css');
 @import url('./_is-opened/header_is-opened.css');
+@import url('./__background/header__background.css');
 
 @media (max-width: 767px) {
   .header {
-    height: 536px;
-    background-image: url(../../images/main-background-320-768.png);
-  }
-
-  .header-saved-articles {
     background: #fff;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
-    height: 400px;
-    background-image: url(../../images/main-background-768-1023.png);
-    background-repeat: no-repeat;
-  }
-
-  .header-saved-articles {
     background: #fff;
   }
 }
 
 @media (min-width: 1024px) {
   .header {
-    height: 576px;
-    background-image: url(../../images/main-background.jpg);
-    background-repeat: no-repeat;
-  }
-
-  .header-saved-articles {
     background: #fff;
   }
 }

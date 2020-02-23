@@ -8,6 +8,7 @@
 @import url('../blocks/saved-articles/saved-articles.css');
 @import url('../blocks/popup/popup.css');
 @import url('../vendor/fonts.css');
+@import url('../vendor/normalize.css');
 
 @media (max-width: 767px) {
   body {

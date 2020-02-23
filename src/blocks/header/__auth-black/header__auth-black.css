@@ -22,11 +22,12 @@
   .header__auth-black {
     display: flex;
     align-items: center;
-    width: 100px;
+    width: 140px;
     height: 40px;
     margin-left: 16px;
     margin-top: 14px;
     margin-bottom: 12px;
+    padding-left: 16px;
 
     background: #fff;
     border: 1px solid #d1d2d6;
