@@ -8,7 +8,7 @@
 ```
 Открытие/закрытие мобильного меню:
 ```
-document.querySelector('.popup__menu').classList.toggle('popup__menu_is-opened');
+document.querySelector('.header__popup-mobile').classList.toggle('header_is-opened');
 ```
 Открытие/закрытие popup 'Вход'
 ```
