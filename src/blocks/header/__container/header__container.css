@@ -1,7 +1,17 @@
+@media (max-width: 767px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background: #1a1b22;
+    border-radius: 0 0 16px 16px;
+  }
+}
+
 @media (min-width: 768px) {
   .header__container {
     display: flex;
-    margin-left: 132px;
+    margin-left: 70px;
     width: 100%;
     justify-content: flex-end;
   }
@@ -10,7 +20,7 @@
 @media (min-width: 1024px) {
   .header__container {
     display: flex;
-    margin-left: 607px;
+    margin-left: 305px;
     width: 100%;
     justify-content: flex-end;
   }

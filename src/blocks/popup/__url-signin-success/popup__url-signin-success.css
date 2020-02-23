@@ -1,11 +1,12 @@
 @media (max-width: 767px) {
-  .popup__url-signin {
+  .popup__url-signin-success {
+    margin-left: 17px;
+
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
     text-decoration: none;
     cursor: pointer;
 
@@ -14,13 +15,14 @@
 }
 
 @media (min-width: 768px) {
-  .popup__url-signin {
+  .popup__url-signin-success {
+    margin-left: 36px;
+
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
     text-decoration: none;
     cursor: pointer;
 

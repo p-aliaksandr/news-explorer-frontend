@@ -1,5 +1,5 @@
 @media (max-width: 767px) {
-  .header__main {
+  .header__main-black {
     /* display: none; */
     margin-left: 16px;
     margin-top: 16px;
@@ -16,40 +16,35 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .header__main {
+  .header__main-black {
     width: 64px;
-    height: 41px;
     margin-top: 22px;
-    margin-right: 16px;
+    margin-bottom: 20px;
+
     font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    border-bottom: 3px solid #fff;
     text-decoration: none;
-    text-align: center;
 
-    color: #fff;
+    color: #1a1b22;
   }
 }
 
 @media (min-width: 1024px) {
-  .header__main {
+  .header__main-black {
     width: 69px;
-    height: 47px;
     margin-top: 30px;
-    margin-right: 32px;
+    margin-bottom: 26px;
 
-    font-family: Roboto, arial, sans-serif;
+    font-family: Roboto , arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    border-bottom: 3px solid #fff;
     text-decoration: none;
-    text-align: center;
 
-    color: #fff;
+    color: #1a1b22;
   }
 }

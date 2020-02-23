@@ -1,14 +1,14 @@
 import './pages/style.css';
 
 const buttonMobileMenu = document.querySelector('.header__menu-mobile');
-const crossMobileMenu = document.querySelector('.popup__menu-close');
+const crossMobileMenu = document.querySelector('.header__popup-mobile-close');
 
 function openMobileMenu() {
-  document.querySelector('.popup__menu').classList.toggle('popup__menu_is-opened');
+  document.querySelector('.header__popup-mobile').classList.toggle('header_is-opened');
 }
 
 function closeMobileMenu() {
-  document.querySelector('.popup__menu').classList.toggle('popup__menu_is-opened');
+  document.querySelector('.header__popup-mobile').classList.toggle('header_is-opened');
 }
 
 buttonMobileMenu.addEventListener('click', openMobileMenu);

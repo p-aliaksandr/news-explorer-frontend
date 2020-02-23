@@ -3,7 +3,7 @@
 @import url('./__title/popup__title.css');
 @import url('./__form/popup__form.css');
 @import url('./__text-email/popup__text-email.css');
-@import url('./__input/popup__input.css');
+@import url('./__input-type/popup__input-type.css');
 @import url('./__error/popup__error.css');
 @import url('./__text-password/popup__text-password.css');
 @import url('./__button/popup__button.css');
@@ -11,11 +11,13 @@
 @import url('./__url-signup/popup__url-signup.css');
 @import url('./__text-name/popup__text-name.css');
 @import url('./__url-signin/popup__url-signin.css');
-@import url('./__menu/popup__menu.css');
-@import url('./__menu-auth/popup__menu-auth.css');
-@import url('./__saved-articles/popup__saved-articles.css');
-@import url('./__logged-in/popup__logged-in.css');
 @import url('./_is-opened/popup_is-opened.css');
+@import url('./__button-active/popup__button-active.css');
+@import url('./__content-success/popup__content-success.css');
+@import url('./__text-password-signin/popup__text-password-signin.css');
+@import url('./__title-site/popup__title-site.css');
+@import url('./__title-success/popup__title-success.css');
+@import url('./__url-signin-success/popup__url-signin-success.css');
 
 @media (max-width: 767px) {
   .popup {
