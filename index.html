@@ -8,22 +8,19 @@
   <meta name="author" content="Sasha Prokofyev">
   <title>NewsExplorer</title>
   <link rel="icon" type="images/png" href="./images/favicon.png">
-  <link rel="stylesheet" href="style.23e6c1453eb7e316d0d8.css?e52b84112f94d9a61d17">
+  <link rel="stylesheet" href="style.806c9bef08a99c929eda.css?2ca31a803abce6c110c7">
 </head>
 <body>
 
   <!-- Шапка -->
   <header class="header">
     <div class="header__background">
-    <nav class="header__navigation header__navigation-mobile">
-        <a href="./index.html" class="header__logo header__logo-mobile">
+    <nav class="header__navigation">
+        <a href="./index.html" class="header__logo">
           NewsExplorer
         </a>
       <div class="header__popup-mobile">
-          <div class="header__menu-mobile-upper">
-      <a href="./index.html" class="header__logo header__logo-mobile">
-        NewsExplorer
-      </a>
+        <div class="header__menu-mobile-upper">
       <img src="./images/close.png" alt="" class="header__popup-mobile-close">
       </div>
       <div class="header__container">
@@ -36,9 +33,9 @@
       <a href="./saved-articles.html" class="header__saved-articles">
         Сохранённые статьи
       </a>
-      <button class="header__auth-logged-in header__auth header__auth_text">
+      <button class="header__auth-logged-in header__auth-logged-in_text">
         Грета
-        <span class="header__auth-logged-in-icon">
+        <span class="header__auth-icon">
         </span>
       </button>
     </div>
@@ -64,9 +61,6 @@
 
   <!-- Попап, вход -->
   <div class="popup popup-signin">
-    <h3 class="popup__title-site">
-      NewsExplorer
-    </h3>
     <div class="popup__content">
       <img src="./images/close.png" alt="" class="popup__close">
       <h3 class="popup__title">Вход
@@ -82,7 +76,7 @@
         <input type="password" name="password" class="popup__input-type popup__input-type_password" placeholder="Введите пароль">
         <span class="popup__error popup__error_password">
         </span>
-        <button class="button popup__button popup__button-active">Войти
+        <button class="button popup__button popup__button_active">Войти
         </button>
       </form>
       <p class="popup__text-and">или
@@ -95,9 +89,6 @@
 
   <!-- Попап, Регистрация -->
   <div class="popup popup-signup">
-      <h3 class="popup__title-site">
-        NewsExplorer
-      </h3>
       <div class="popup__content">
         <img src="./images/close.png" alt="" class="popup__close">
         <h3 class="popup__title">Регистрация
@@ -125,7 +116,7 @@
           <span class="popup__error popup__error_duplicate">
             Такой пользователь уже есть
           </span>
-          <button class="button popup__button popup__button-active">
+          <button class="button popup__button popup__button_active">
             Зарегистрироваться
           </button>
         </form>
@@ -140,9 +131,6 @@
 
     <!-- Попап, пользователь успешно зарегистрирован -->
     <div class="popup popup-success">
-      <h3 class="popup__title-site">
-        NewsExplorer
-      </h3>
       <div class="popup__content-success">
         <img src="./images/close.png" alt="" class="popup__close">
         <h3 class="popup__title-success">
@@ -185,7 +173,7 @@
       Результаты поиска
     </h2>
     <div class="results__container">
-      <div class="results__card results__lenta">
+      <div class="results__card results__card_lenta">
         <div class="results__bookmark">
             <div class="results__alert">
               </div>
@@ -209,11 +197,11 @@
           национальных парков – охраняемых территорий, где
           и сегодня каждый может приобщиться к природе.
         </p>
-        <address class="results__author results__author-lenta" >
+        <address class="results__author results__author_lenta" >
           Лента.ру
         </address>
       </div>
-      <div class="results__card results__medusa">
+      <div class="results__card results__card_medusa">
         <div class="results__bookmark">
           <div class="results__alert">
             </div>
@@ -236,11 +224,11 @@
             реальности Мексики, чтобы запечатлеть ускользающую
             красоту одного из местных чудес природы.
           </p>
-          <address class="results__author results__author-medusa" >
+          <address class="results__author results__author_medusa" >
             Медуза
           </address>
         </div>
-        <div class="results__card results__ria">
+        <div class="results__card results__card_ria">
           <div class="results__bookmark">
             <div class="results__alert">
               </div>
@@ -263,7 +251,7 @@
             чтобы рассказать о необходимости их сохранения. В этот раз
             он отправился в Двинско-Пинежскую тайгу, где...
           </p>
-          <address class="results__author results__author-ria" >
+          <address class="results__author results__author_ria" >
             Риа
           </address>
         </div>
@@ -303,6 +291,6 @@
       <img class="footer__linkedin-img" src="./images/linkedin.png" alt="linkedin">
     </a>
   </footer>
-  <script src="main.80b172efe837f02be1cc.js?e52b84112f94d9a61d17"></script>
+  <script src="main.80b172efe837f02be1cc.js?2ca31a803abce6c110c7"></script>
 </body>
 </html>
