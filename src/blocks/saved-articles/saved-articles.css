@@ -1,10 +1,10 @@
 @import url('./__container/saved-articles__container.css');
-@import url('./__afisha/saved-articles__afisha.css');
-@import url('./__dzen/saved-articles__dzen.css');
-@import url('./__mediazone/saved-articles__mediazone.css');
-@import url('./__author-dzen/saved-articles__author-dzen.css');
-@import url('./__author-afisha/saved-articles__author-afisha.css');
-@import url('./__author-mediazone/saved-articles__author-mediazone.css');
+@import url('./__card/_afisha/saved-articles__card_afisha.css');
+@import url('./__card/_dzen/saved-articles__card_dzen.css');
+@import url('./__card/_mediazone/saved-articles__card_mediazone.css');
+@import url('./__author/_dzen/saved-articles__author_dzen.css');
+@import url('./__author/_afisha/saved-articles__author_afisha.css');
+@import url('./__author/_mediazone/saved-articles__author_mediazone.css');
 @import url('./__card/saved-articles__card.css');
 @import url('./__upper-container/saved-articles__upper-container.css');
 @import url('./__keyword/saved-articles__keyword.css');

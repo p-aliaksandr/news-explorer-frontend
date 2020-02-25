@@ -13,10 +13,9 @@
 @import url('./__text-name/popup__text-name.css');
 @import url('./__url-signin/popup__url-signin.css');
 @import url('./_is-opened/popup_is-opened.css');
-@import url('./__button-active/popup__button-active.css');
+@import url('./__button/_active/popup__button_active.css');
 @import url('./__content-success/popup__content-success.css');
 @import url('./__text-password-signin/popup__text-password-signin.css');
-@import url('./__title-site/popup__title-site.css');
 @import url('./__title-success/popup__title-success.css');
 @import url('./__url-signin-success/popup__url-signin-success.css');
 
@@ -33,7 +32,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 3;
     display: none;
   }
 
@@ -53,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 3;
     display: none;
   }
 
