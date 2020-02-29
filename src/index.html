@@ -21,6 +21,9 @@
         </a>
       <div class="header__popup-mobile">
         <div class="header__menu-mobile-upper">
+          <a href="./index.html" class="header__logo">
+            NewsExplorer
+          </a>
       <img src="<%=require('./images/close.png').default%>" alt="" class="header__popup-mobile-close">
       </div>
       <div class="header__container">
@@ -60,7 +63,7 @@
   </header>
 
   <!-- Попап, вход -->
-  <div class="popup popup-signin">
+  <div class="popup popup-signin popup_is-opened">
     <div class="popup__content">
       <img src="<%=require('./images/close.png').default%>" alt="" class="popup__close">
       <h3 class="popup__title">Вход
@@ -88,7 +91,7 @@
   </div>
 
   <!-- Попап, Регистрация -->
-  <div class="popup popup-signup">
+  <div class="popup popup-signup popup_is-opened">
       <div class="popup__content">
         <img src="<%=require('./images/close.png').default%>" alt="" class="popup__close">
         <h3 class="popup__title">Регистрация
@@ -130,7 +133,7 @@
     </div>
 
     <!-- Попап, пользователь успешно зарегистрирован -->
-    <div class="popup popup-success">
+    <div class="popup popup-success popup_is-opened">
       <div class="popup__content-success">
         <img src="<%=require('./images/close.png').default%>" alt="" class="popup__close">
         <h3 class="popup__title-success">
