@@ -21,7 +21,7 @@
   .header__container {
     display: flex;
     margin-left: 305px;
-    width: 900px;
+    width: 830px;
     justify-content: flex-end;
   }
 }
