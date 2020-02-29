@@ -22,8 +22,6 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    border: 1px solid red;
-      box-sizing: border-box;
   }
 }
 
@@ -39,8 +37,6 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    border: 1px solid red;
-      box-sizing: border-box;
   }
 }
 
@@ -56,9 +52,12 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-      border: 1px solid red;
-      box-sizing: border-box;
   }
+}
+
+*{
+  border: 1px solid red;
+  box-sizing: border-box;
 }
 
 /* body, main, h1, h2, h3, a, button, nav, div, p, footer, time, .results, section, i,
