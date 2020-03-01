@@ -24,7 +24,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 1440px;
+    width: 100%;
     height: 100%;
     background-image: url(../../images/main-background-320-768.png);
     background-size: cover;
@@ -46,7 +46,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 768px;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     display: flex;
