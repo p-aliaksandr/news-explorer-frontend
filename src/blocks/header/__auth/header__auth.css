@@ -12,7 +12,7 @@
       border-radius: 100px;
       background: none;
       cursor: pointer;
-      display: none;
+      /* display: none; */
 
       font-family: Roboto, arial, sans-serif;
       font-style: normal;
@@ -36,7 +36,7 @@
     border: 1px solid #fff;
     box-sizing: border-box;
     border-radius: 100px;
-    display: none;
+    /* display: none; */
 
     justify-content: center;
     font-family: Roboto, arial, sans-serif;
@@ -58,7 +58,7 @@
     margin-right: 104px;
     margin-top: 19px;
     margin-bottom: 13px;
-    display: none;
+    /* display: none; */
 
     border: 1px solid #fff;
     box-sizing: border-box;
