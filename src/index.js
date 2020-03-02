@@ -20,6 +20,7 @@ function closeMobileMenu() {
 function openSignInPopup() {
   document.querySelector('.popup-signin').classList.add('popup_is-opened');
   document.querySelector('.popup-signup').classList.remove('popup_is-opened');
+  document.querySelector('.header__popup-mobile').classList.remove('header_is-opened');
 }
 
 function closeSignInPopup() {
