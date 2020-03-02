@@ -15,36 +15,38 @@
   <!-- Шапка -->
   <header class="header">
     <div class="header__background">
-    <nav class="header__navigation">
+      <nav class="header__navigation">
         <a href="./index.html" class="header__logo">
           NewsExplorer
         </a>
-      <div class="header__popup-mobile">
-        <div class="header__menu-mobile-upper">
-          <a href="./index.html" class="header__logo">
+        <div class="header__popup-mobile">
+          <div class="header__menu-mobile-upper">
+            <a href="./index.html" class="header__logo">
             NewsExplorer
-          </a>
-      <img src="<%=require('./images/close.png').default%>" alt="" class="header__popup-mobile-close">
-      </div>
-      <div class="header__container">
-      <a href="./index.html" class="header__main">
-        Главная
-      </a>
-      <button class="header__auth header__auth_text">
-        Авторизоваться
-      </button>
-      <a href="./saved-articles.html" class="header__saved-articles">
-        Сохранённые статьи
-      </a>
-      <button class="header__auth-logged-in header__auth-logged-in_text">
-        Грета
-        <span class="header__auth-icon">
-        </span>
-      </button>
-    </div>
-  </div>
+            </a>
+            <img src="<%=require('./images/close.png').default%>" alt="" class="header__popup-mobile-close">
+          </div>
+        <div class="header__container">
+          <div class="header__menu">
+            <a href="./index.html" class="header__main">
+              Главная
+            </a>
+            <a href="./saved-articles.html" class="header__saved-articles">
+              Сохранённые статьи
+            </a>
+          </div>
+          <button class="header__auth">
+            Авторизоваться
+          </button>
+          <button class="header__auth-logged-in">
+            Грета
+            <span class="header__auth-icon">
+            </span>
+          </button>
+        </div>
+        </div>
       <img class="header__menu-mobile" src="<%=require('./images/navigation__menu-mobile.png').default%>" alt="меню">
-    </nav>
+      </nav>
 
       <!-- Шапка - поиск новостей -->
     <section class="header__info">

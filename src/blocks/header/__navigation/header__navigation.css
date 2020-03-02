@@ -22,6 +22,7 @@
   @media (min-width: 1024px) {
   .header__navigation {
     display: flex;
+    justify-content: space-between;
     /* display: none; */
 
     background: rgba(196, 196, 196, 0.01);

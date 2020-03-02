@@ -18,30 +18,32 @@
         NewsExplorer
       </a>
       <div class="header__popup-mobile">
-      <div class="header__menu-mobile-upper">
-        <a href="./index.html" class="header__logo">
-          NewsExplorer
-        </a>
-        <img src="<%=require('./images/close.png').default%>" alt="" class="header__popup-mobile-close">
+        <div class="header__menu-mobile-upper">
+          <a href="./index.html" class="header__logo">
+            NewsExplorer
+          </a>
+          <img src="<%=require('./images/close.png').default%>" alt="" class="header__popup-mobile-close">
+        </div>
+        <div class="header__container">
+          <div class="header__menu">
+            <a href="./index.html" class="header__main-black">
+              Главная
+            </a>
+            <a href="./saved-articles.html" class="header__saved-articles-black">
+              Сохранённые статьи
+            </a>
+          </div>
+          <button class="header__auth-black">
+            Авторизоваться
+          </button>
+          <button class="header__auth-logged-in-black">
+            Грета
+            <span class="header__auth-black-icon">
+            </span>
+          </button>
+        </div>
       </div>
-          <div class="header__container">
-      <a href="./index.html" class="header__main-black">
-        Главная
-      </a>
-      <button class="header__auth-black header__auth-black_text">
-        Авторизоваться
-      </button>
-      <a href="./saved-articles.html" class="header__saved-articles-black">
-        Сохранённые статьи
-      </a>
-      <button class="header__auth-logged-in-black header__auth-logged-in-black_text">
-        Грета
-        <span class="header__auth-black-icon">
-        </span>
-      </button>
-    </div>
-    </div>
-        <img class="header__menu-mobile" src="<%=require('./images/navigation__menu-mobile-black.png').default%>" alt="меню">
+      <img class="header__menu-mobile" src="<%=require('./images/navigation__menu-mobile-black.png').default%>" alt="меню">
     </nav>
 
     <!-- Шапка, информация - сколько сохранено статей, ключевые слова(320-1440) -->
