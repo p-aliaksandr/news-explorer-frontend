@@ -18,10 +18,10 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__title {
-    width: 320px;
+    width: 10em;
     height: 80px;
     margin-top: 36px;
-    margin-left: 163px;
+    margin-left: 5em;
     margin-bottom: 0;
 
     font-family: Roboto Slab, arial, sans-serif;
@@ -36,10 +36,10 @@
 
 @media (min-width: 1024px) {
   .header__title {
-    width: 540px;
+    width: 10em;
     height: 128px;
     margin-top: 80px;
-    margin-left: 416px;
+    margin-left: 6em;
     margin-bottom: 0;
 
     font-family: Roboto Slab, arial, sans-serif;

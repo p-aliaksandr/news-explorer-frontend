@@ -27,10 +27,10 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__auth {
-    width: 140px;
+    width: 8.75em;
     height: 40px;
     margin-top: 14px;
-    margin-right: 40px;
+    margin-right: 2.5em;
     margin-bottom: 12px;
 
     border: 1px solid #fff;
@@ -53,9 +53,9 @@
 
 @media (min-width: 1024px) {
   .header__auth {
-    width: 176px;
+    width: 11em;
     height: 48px;
-    margin-right: 104px;
+    margin-right: 6.5em;
     margin-top: 19px;
     margin-bottom: 13px;
     /* display: none; */

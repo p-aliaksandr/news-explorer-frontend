@@ -11,8 +11,7 @@
 @media (min-width: 768px) {
   .header__container {
     display: flex;
-    margin-left: 70px;
-    width: 450px;
+    /* margin-left: 13em; */
     justify-content: flex-end;
   }
 }
@@ -20,8 +19,7 @@
 @media (min-width: 1024px) {
   .header__container {
     display: flex;
-    margin-left: 305px;
-    width: 830px;
+    /* margin-left: 13em; */
     justify-content: flex-end;
   }
 }

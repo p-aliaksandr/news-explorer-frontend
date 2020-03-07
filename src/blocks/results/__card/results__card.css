@@ -14,21 +14,24 @@
   .results__card {
     display: flex;
     flex-direction: column;
-    width: 224px;
     border-radius: 16px;
     background-color: #fff;
     text-decoration: none;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
   }
 }
 
 @media (min-width: 1024px) {
   .results__card {
     display: flex;
+    width: 32%;
     flex-direction: column;
-    width: 400px;
     border-radius: 16px;
     background-color: #fff;
     text-decoration: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
   }
 }
 

@@ -32,10 +32,10 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .results__bookmark {
     position: relative;
-    width: 40px;
+    width: 2.5em;
     height: 40px;
     margin-top: 8px;
-    margin-left: 176px;
+    margin-left: 75%;
     margin-bottom: 115px;
     background: #fff;
     border-radius: 8px;
@@ -63,10 +63,10 @@
 @media (min-width: 1024px) {
   .results__bookmark {
     position: relative;
-    width: 40px;
+    width: 2.5em;
     height: 40px;
     margin-top: 24px;
-    margin-left: 336px;
+    margin-left: 85%;
     margin-bottom: 228px;
     background: #fff;
     border-radius: 8px;

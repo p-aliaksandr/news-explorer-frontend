@@ -11,19 +11,15 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .results__container {
     display: flex;
-    justify-content: space-between;
-    width: 688px;
+    justify-content: center;
     margin-top: 32px;
-    margin-left: 40px;
   }
 }
 
 @media (min-width: 1024px) {
   .results__container {
     display: flex;
-    justify-content: space-between;
-    width: 1232px;
+    justify-content: center;
     margin-top: 64px;
-    margin-left: 104px;
   }
 }

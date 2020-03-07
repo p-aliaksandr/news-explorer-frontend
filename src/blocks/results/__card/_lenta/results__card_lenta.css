@@ -16,5 +16,6 @@
   .results__card_lenta {
     background-image: url(../../../../../src/images/result-1.png);
     background-repeat: no-repeat;
+    background-size: 100% 270px;
   }
 }

@@ -41,7 +41,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__search {
-    width: 448px;
+    width: 28em;
     height: 56px;
     padding-left: 24px;
     padding-right: 40px;
@@ -82,7 +82,7 @@
 
 @media (min-width: 1024px) {
   .header__search {
-    width: 608px;
+    width: 38em;
     height: 64px;
     padding-left: 24px;
     padding-right: 40px;

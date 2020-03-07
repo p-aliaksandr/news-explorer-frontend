@@ -32,7 +32,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__button {
-    width: 160px;
+    width: 10em;
     height: 56px;
 
     font-family: Roboto, arial, sans-serif;
@@ -62,7 +62,7 @@
 
 @media (min-width: 1024px) {
   .header__button {
-    width: 168px;
+    width: 10.5em;
     height: 64px;
 
     font-family: Roboto, arial, sans-serif;

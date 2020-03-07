@@ -9,7 +9,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__auth-icon {
-    width: 17.41px;
+    width: 1em;
     height: 16px;
     margin-left: 8px;
     background-image: url(../../../../src/images/Union.png);
@@ -18,9 +18,9 @@
 
 @media (min-width: 1024px) {
   .header__auth-icon {
-    width: 17.41px;
+    width: 1em;
     height: 16px;
-    margin-left: 8px;
+    margin-left: 0.5em;
     background-image: url(../../../../src/images/Union.png);
   }
 }

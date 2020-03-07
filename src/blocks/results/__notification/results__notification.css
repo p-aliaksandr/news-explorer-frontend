@@ -17,7 +17,7 @@
   .results__notification {
     display: none;
     position: absolute;
-    width: 160px;
+    width: 9em;
     height: 40px;
     top: 0;
     right: 45px;
@@ -32,7 +32,7 @@
   .results__notification {
     display: none;
     position: absolute;
-    width: 182px;
+    width: 11em;
     height: 40px;
     top: 0;
     right: 45px;

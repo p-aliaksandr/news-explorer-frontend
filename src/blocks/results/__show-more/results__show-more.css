@@ -26,11 +26,11 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .results__show-more {
-    width: 240px;
+    width: 15em;
     height: 56px;
     margin-top: 32px;
     margin-bottom: 40px;
-    margin-left: 272px;
+    margin-left: 14em;
     background: #fff;
     border-radius: 80px;
     border: none;
@@ -52,11 +52,11 @@
 
 @media (min-width: 1024px) {
   .results__show-more {
-    width: 288px;
+    width: 18em;
     height: 64px;
     margin-top: 64px;
     margin-bottom: 80px;
-    margin-left: 576px;
+    margin-left: 31em;
     background: #fff;
     border-radius: 80px;
     border: none;
