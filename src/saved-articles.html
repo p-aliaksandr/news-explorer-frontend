@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
+<div class="page">
   <!-- Шапка -->
   <header class="header">
     <nav class="header__navigation-black">
@@ -230,7 +231,7 @@
       <img class="footer__linkedin-img" src="<%=require('./images/linkedin.png').default%>" alt="linkedin">
     </a>
     </footer>
-
+</div>
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

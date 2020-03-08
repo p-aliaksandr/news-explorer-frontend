@@ -9,6 +9,7 @@
 @import url('../blocks/popup/popup.css');
 @import url('../vendor/fonts.css');
 @import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
 
 @media (max-width: 767px) {
   body {
