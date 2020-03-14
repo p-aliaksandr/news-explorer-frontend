@@ -9,7 +9,6 @@
     background: #fff;
     border-radius: 8px;
     border: none;
-    cursor: pointer;
   }
 
   .results__bookmark:hover .results__notification {
@@ -35,12 +34,11 @@
     width: 2.5em;
     height: 40px;
     margin-top: 8px;
-    margin-left: 75%;
+    margin-left: 79%;
     margin-bottom: 115px;
     background: #fff;
     border-radius: 8px;
     border: none;
-    cursor: pointer;
   }
 
   .results__bookmark:hover .results__notification {
@@ -71,7 +69,6 @@
     background: #fff;
     border-radius: 8px;
     border: none;
-    cursor: pointer;
   }
 
   .results__bookmark:hover .results__notification {

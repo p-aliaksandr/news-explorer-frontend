@@ -19,7 +19,7 @@
   .header__description {
     width: 28em;
     height: 48px;
-    margin-left: 10em;
+    margin-left: 9em;
     margin-top: 16px;
 
     font-family: Roboto, arial, sans-serif;
@@ -34,9 +34,9 @@
 
 @media (min-width: 1024px) {
   .header__description {
-    width: 26em;
+    width: 30em;
     height: 48px;
-    margin-left: 20em;
+    margin-left: 23em;
     margin-top: 32px;
 
     font-family: Roboto, arial, sans-serif;

@@ -37,10 +37,9 @@
 
   @media (min-width: 1024px) {
   .header__logo-black {
-    width: 200px;
     height: 24px;
+    margin-left: 5.3em;
     margin-top: 30px;
-    margin-left: 104px;
     margin-bottom: 26px;
 
     font-family: Roboto Slab, arial, sans-serif;

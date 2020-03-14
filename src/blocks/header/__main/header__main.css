@@ -9,7 +9,7 @@
     font-size: 18px;
     line-height: 56px;
     text-decoration: none;
-    cursor: pointer;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #fff;
   }
@@ -20,7 +20,7 @@
     width: 4em;
     height: 41px;
     margin-top: 22px;
-    margin-right: 1em;
+    margin-right: 1.1em;
     font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -29,6 +29,7 @@
     border-bottom: 3px solid #fff;
     text-decoration: none;
     text-align: center;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #fff;
   }
@@ -49,6 +50,7 @@
     border-bottom: 3px solid #fff;
     text-decoration: none;
     text-align: center;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #fff;
   }

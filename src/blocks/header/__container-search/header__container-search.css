@@ -14,7 +14,7 @@
   .header__container-search {
     display: flex;
     margin-left: 10em;
-    margin-top: 48px;
+    margin-top: 50px;
     margin-bottom: 48px;
     width: 28em;
     height: 56px;
@@ -27,11 +27,10 @@
 @media (min-width: 1024px) {
   .header__container-search {
     display: flex;
-    margin-left: 22em;
+    margin-left: 29%;
     margin-top: 64px;
     margin-bottom: 80px;
     width: 38em;
-    height: 64px;
     background: #fff;
 
     border-radius: 100px;

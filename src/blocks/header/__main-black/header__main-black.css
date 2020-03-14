@@ -9,7 +9,7 @@
     font-size: 18px;
     line-height: 56px;
     text-decoration: none;
-    cursor: pointer;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #fff;
   }
@@ -27,6 +27,7 @@
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #1a1b22;
   }
@@ -34,9 +35,10 @@
 
 @media (min-width: 1024px) {
   .header__main-black {
-    width: 69px;
+    width: 4.3em;
     margin-top: 30px;
     margin-bottom: 26px;
+    margin-right: 2em;
 
     font-family: Roboto , arial, sans-serif;
     font-style: normal;
@@ -44,6 +46,7 @@
     font-size: 18px;
     line-height: 24px;
     text-decoration: none;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #1a1b22;
   }

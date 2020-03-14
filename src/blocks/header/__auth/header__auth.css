@@ -11,7 +11,7 @@
       box-sizing: border-box;
       border-radius: 100px;
       background: none;
-      cursor: pointer;
+      cursor: url(../../../images/lapka.png), pointer;
       /* display: none; */
 
       font-family: Roboto, arial, sans-serif;
@@ -27,7 +27,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__auth {
-    width: 8.75em;
+    width: 9.5em;
     height: 40px;
     margin-top: 14px;
     margin-right: 2.5em;
@@ -45,7 +45,7 @@
     font-size: 16px;
     line-height: 24px;
     background: none;
-    cursor: pointer;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #fff;
   }
@@ -53,9 +53,9 @@
 
 @media (min-width: 1024px) {
   .header__auth {
-    width: 11em;
+    width: 10em;
     height: 48px;
-    margin-right: 6.5em;
+    margin-right: 5em;
     margin-top: 19px;
     margin-bottom: 13px;
     /* display: none; */
@@ -71,7 +71,7 @@
     font-size: 18px;
     line-height: 24px;
     background: none;
-    cursor: pointer;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #fff;
   }

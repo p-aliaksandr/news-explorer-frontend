@@ -10,6 +10,7 @@
     font-size: 18px;
     line-height: 48px;
     text-decoration: none;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #1a1b22;
   }
@@ -29,6 +30,7 @@
     line-height: 24px;
     text-decoration: none;
     text-align: center;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #1a1b22;
   }
@@ -38,7 +40,7 @@
   .footer__ya-praktikum {
     margin-top: 30px;
     margin-bottom: 28px;
-    margin-left: 2em;
+    margin-left: 1em;
 
     height: 22px;
     font-family: Roboto, arial, sans-serif;
@@ -48,6 +50,7 @@
     line-height: 24px;
     text-decoration: none;
     text-align: center;
+    cursor: url(../../../images/lapka.png), pointer;
 
     color: #1a1b22;
   }
