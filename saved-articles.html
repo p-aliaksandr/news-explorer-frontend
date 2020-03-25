@@ -8,11 +8,11 @@
     <meta name="author" content="Sasha Prokofyev">
     <title>Saved Articles</title>
     <link rel="icon" type="images/png" href="./images/favicon.png">
-    <link rel="stylesheet" href="style.2230e84e7c388dec334b.css?1ff65cfc55b4845f230a">
+    <link rel="stylesheet" href="style.f5a64af3ae82d8c1cf29.css?7bb2cc56eba93b3b4d47">
 </head>
 <body>
 <div class="page">
-  <!-- Шапка -->
+
   <header class="header">
     <nav class="header__navigation-black">
       <a href="./index.html" class="header__logo-black">
@@ -30,15 +30,16 @@
             <a href="./index.html" class="header__main-black">
               Главная
             </a>
-            <a href="./saved-articles.html" class="header__saved-articles-black">
+            <a href="./saved-articles.html" class="header__saved-articles header__saved-articles_black header__saved-articles_is-opened">
               Сохранённые статьи
             </a>
           </div>
-          <button class="header__auth-black">
+          <button class="header__auth">
             Авторизоваться
           </button>
-          <button class="header__auth-logged-in-black">
-            Грета
+          <button class="header__auth-logged-in header__auth-logged-in_black header__auth-logged-in_is-opened">
+            <span class="header__auth-name">
+            </span>
             <span class="header__auth-black-icon">
             </span>
           </button>
@@ -46,180 +47,19 @@
       </div>
       <img class="header__menu-mobile" src="./images/navigation__menu-mobile-black.png" alt="меню">
     </nav>
-
-    <!-- Шапка, информация - сколько сохранено статей, ключевые слова(320-1440) -->
-    <section class="header__info-saved-articles">
-      <h2 class="header__title-saved-articles">
-        Сохранённые статьи
-      </h2>
-      <p class="header__text-saved-articles">
-        Грета, у вас 5 сохранённых статей
-      </p>
-      <p class="header__keywords-saved-articles">
-        По ключевым словам: <b>Природа, Тайга</b> и <b>2 другим</b>
-      </p>
-    </section>
   </header>
 
-  <!-- Основная информация, все сохранённые статьи -->
-  <main class="saved-articles">
-    <div class="saved-articles__container">
-      <article class="saved-articles__card saved-articles__card_dzen">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Природа
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
-          2 августа, 2019
-        </time>
-        <h3 class="saved-articles__title">
-          Национальное достояние – парки
-        </h3>
-        <p class="saved-articles__description" >
-          В 2016 году Америка отмечала важный юбилей:
-          сто лет назад здесь начала складываться система
-          национальных парков – охраняемых территорий, где
-          и сегодня каждый может приобщиться к природе.
-        </p>
-        <address class="saved-articles__author saved-articles__author_dzen" >
-          ДЗЕН
-        </address>
-      </article>
-      <article class="saved-articles__card saved-articles__card_afisha">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Природа
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
-          2 августа, 2019
-        </time>
-        <h3 class="saved-articles__title">
-          Лесные огоньки: история одной фотографии
-        </h3>
-        <p class="saved-articles__description" >
-          Фотограф отвлеклась от освещения суровой политической
-          реальности Мексики, чтобы запечатлеть ускользающую
-          красоту одного из местных чудес природы.
-        </p>
-        <address class="saved-articles__author saved-articles__author_afisha" >
-          Афиша
-        </address>
-      </article>
-      <article class="saved-articles__card saved-articles__card_mediazone">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Тайга
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
-          2 августа, 2019
-        </time>
-        <h3 class="saved-articles__title">
-          «Первозданная тайга»: новый фотопроект Игоря Шпиленка
-        </h3>
-        <p class="saved-articles__description">
-          Знаменитый фотограф снимает первозданные леса России,
-          чтобы рассказать о необходимости их сохранения. В этот
-          раз он отправился в Двинско-Пинежскую тайгу, где...
-        </p>
-        <address class="saved-articles__author saved-articles__author_mediazone" >
-          Медиазона
-        </address>
-      </article>
-      <article class="saved-articles__card saved-articles__card_dzen">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Парки
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
-          2 августа, 2019
-        </time>
-        <h3 class="saved-articles__title">
-          Национальное достояние – парки
-        </h3>
-        <p class="saved-articles__description" >
-          В 2016 году Америка отмечала важный юбилей:
-          сто лет назад здесь начала складываться система
-          национальных парков – охраняемых территорий, где
-          и сегодня каждый может приобщиться к природе.
-        </p>
-        <address class="saved-articles__author saved-articles__author_dzen" >
-          ДЗЕН
-        </address>
-      </article>
-      <article class="saved-articles__card saved-articles__card_afisha">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Фотография
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
-          2 августа, 2019
-        </time>
-        <h3 class="saved-articles__title">
-          Лесные огоньки: история одной фотографии
-        </h3>
-        <p class="saved-articles__description" >
-          Фотограф отвлеклась от освещения суровой политической
-          реальности Мексики, чтобы запечатлеть ускользающую
-          красоту одного из местных чудес природы.
-        </p>
-        <address class="saved-articles__author saved-articles__author_afisha" >
-          Афиша
-        </address>
-      </article>
-    </div>
-  </main>
+  <section class="favorites">
+    <span class="favorites__text">Сохранённые статьи</span>
+    <h3 class="favorites__title"><span class="favorites__user-name">Грета</span> , у вас <span class="favorites__global-count"></span><span class="favorites__different"> сохранённых статей</span></h3>
+    <p class="favorites__key-words">По ключевым словам: <span class="favorites__words">Природа, Тайга</span><span class="favorites__others"><span class="favorites__others-count"></span></span></p>
+  </section>
 
-  <!-- Подвал -->
+  <section class="results">
+    <div class="results__list results__list_favorites">
+    </div>
+  </section>
+
   <footer class="footer">
     <p class="footer__author">&#169; 2019 ablehope.ru</p>
     <a class="footer__main" href="./index.html">Главная</a>
@@ -232,6 +72,6 @@
     </a>
     </footer>
 </div>
-  <script src="main.a54b871101688b511472.js?1ff65cfc55b4845f230a"></script>
+  <script src="articles.a1ca54129ccf287c8db5.js?7bb2cc56eba93b3b4d47"></script>
 </body>
 </html>
