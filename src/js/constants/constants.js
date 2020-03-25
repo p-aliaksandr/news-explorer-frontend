@@ -29,11 +29,11 @@ const popupButtonSignup = new Button(document.querySelector('.popup__button_sign
 const popupButtonSignin = new Button(document.querySelector('.popup__button_signin'));
 
 // MainAPI
-const mainURL = 'http://api.ablehope.ru';
+const mainURL = 'https://api.ablehope.ru';
 const mainApi = new MainApi(mainURL);
 
 // NewsAPI
-const newsURL = 'http://newsapi.org/v2/everything?';
+const newsURL = 'https://newsapi.org/v2/everything?';
 const apiKey = 'b9fc7a01880741b29710b92e9f8f91bd';
 const newsApi = new NewsApi(newsURL, apiKey);
 
