@@ -20,15 +20,20 @@
 @import url('./__auth-black-icon/header__auth-black-icon.css');
 @import url('./__logo-black/header__logo-black.css');
 @import url('./__main-black/header__main-black.css');
-@import url('./__saved-articles-black/header__saved-articles-black.css');
+@import url('./__saved-articles/_black/header__saved-articles_black.css');
 @import url('./__title-saved-articles/header__title-saved-articles.css');
 @import url('./__popup-mobile/header__popup-mobile.css');
 @import url('./__menu-mobile-upper/header__menu-mobile-upper.css');
 @import url('./__popup-mobile-close/header__popup-mobile-close.css');
 @import url('./_is-opened/header_is-opened.css');
 @import url('./__background/header__background.css');
-@import url('./__auth-logged-in-black/header__auth-logged-in-black.css');
 @import url('./__menu/header__menu.css');
+@import url('./__saved-articles/_is-opened/header__saved-articles_is-opened.css');
+@import url('./__auth-logged-in/_is-opened/header__auth-logged-in_is-opened.css');
+@import url('./__auth/_is-opened/header__auth_is-opened.css');
+@import url('./__auth-name/header__auth-name.css');
+@import url('./__auth-name-black/header__auth-name-black.css');
+@import url('./__auth-logged-in/_black/header__auth-logged-in_black.css');
 
 @media (max-width: 767px) {
   .header {
