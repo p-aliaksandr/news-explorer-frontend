@@ -5,8 +5,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    max-width: 55px;
-    overflow: hidden;
    }
 }
 
@@ -17,8 +15,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    max-width: 55px;
-    overflow: hidden;
    }
 }
 
@@ -29,7 +25,5 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  max-width: 55px;
-  overflow: hidden;
  }
 }

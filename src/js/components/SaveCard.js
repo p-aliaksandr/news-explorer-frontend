@@ -85,7 +85,7 @@ export default class SaveCard {
         event.target.closest('.result-card').remove();
       })
       .catch((err) => {
-        alert(err);
+        alert('Ошибка: ' + err);
       });
   }
 

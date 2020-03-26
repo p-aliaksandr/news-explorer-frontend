@@ -145,7 +145,7 @@ export default class NewsCard {
           this.cardElement.setAttribute('id', data.data._id);
         })
         .catch((err) => {
-          alert(err);
+          alert('Не удалось сохранить статью. Ошибка: ' + err);
         });
     } else {
       mainApi.removeArticle(this.cardElement.getAttribute('id'))
@@ -153,7 +153,7 @@ export default class NewsCard {
           this.renderIcon(false);
         })
         .catch((err) => {
-          alert(err);
+          alert('Ошибка: ' + err);
         });
     }
   }

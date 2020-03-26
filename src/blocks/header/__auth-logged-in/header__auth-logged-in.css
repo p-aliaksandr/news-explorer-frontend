@@ -1,11 +1,11 @@
 @media (max-width: 767px) {
   .header__auth-logged-in {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 288px;
+    max-width: 288px;
     height: 56px;
     margin-left: 16px;
-    padding-left: 106px;
     margin-top: 22px;
     margin-bottom: 24px;
     border: 1px solid #fff;
@@ -23,7 +23,7 @@
   .header__auth-logged-in {
     display: flex;
     align-items: center;
-    width: 6.25em;
+    min-width: 6.25em;
     height: 40px;
     margin-top: 14px;
     margin-right: 2.5em;
@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
 
-    width: 7em;
+    min-width: 7em;
     height: 48px;
     margin-top: 19px;
     margin-bottom: 13px;
